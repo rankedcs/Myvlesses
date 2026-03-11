@@ -2,20 +2,25 @@ name: Upload proxy.txt to Yandex Disk
 
 on:
   schedule:
-    - cron: "0 */5 * * *"   # каждые 6 часов
-  workflow_dispatch:       # можно запускать вручную
+    - cron: "0 */5 * * *"   # каждые 5 часов
+  workflow_dispatch:
 
 jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - name: Download Vless-Reality-White-Lists-Rus-Mobile-2.txt from repo
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Download file from repo
         run: |
-          curl -L -o Vless-Reality-White-Lists-Rus-Mobile-2.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o Vless-Reality-White-Lists-Rus-Mobile-2.txt \
+          https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+
       - name: Upload to Yandex Disk
         run: |
-          UPLOAD_URL=$(curl -s -H "Authorization: OAuth ${{ secrets.y0__xDNw7fKBxiY6j4gpZfE2xYwuKvrsghwI3-1xvyWC-1t5RSMsBqoTFXA6Q }}" \
+          UPLOAD_URL=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
           "https://cloud-api.yandex.net/v1/disk/resources/upload?path=disk:/proxy.txt&overwrite=true" \
           | jq -r '.href')
 
-          curl -T proxy.txt "$UPLOAD_URL"
+          curl -T Vless-Reality-White-Lists-Rus-Mobile-2.txt "$UPLOAD_URL"
