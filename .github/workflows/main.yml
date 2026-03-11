@@ -1,12 +1,9 @@
-name: Safe Update Russia VLESS
+name: Update Russia VLESS
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * *"  # каждые 6 часов
   workflow_dispatch:
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Node.js предупреждение игнорируем
 
 jobs:
   update:
@@ -16,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install tools
+      - name: Install required tools
         run: |
           sudo apt-get update
           sudo apt-get install -y grep timeout sort uniq
@@ -27,25 +24,27 @@ jobs:
 
       - name: Filter only Russia proxies
         run: |
-          grep -i "russia" source.txt > filtered.txt || touch filtered.txt
+          grep -i "russia" source.txt > filtered.txt
+
+      - name: Remove duplicates and sort
+        run: |
           sort -u filtered.txt -o filtered.txt
 
-      - name: Check proxies (safe TCP check)
+      - name: Check proxies (basic TCP check)
         run: |
           > working.txt
-          if [ ! -s filtered.txt ]; then
-            echo "No Russia proxies found, skipping TCP check"
-            cp filtered.txt working.txt
-          else
-            while read -r line; do
-              host=$(echo "$line" | sed -n 's/.*@\([^:]*\):.*/\1/p')
-              port=$(echo "$line" | sed -n 's/.*:\([0-9]*\).*/\1/p')
+          while read line; do
+            # Попытка извлечь хост и порт (предположим формат: user@host:port)
+            host=$(echo $line | sed -n 's/.*@\([^:]*\):.*/\1/p')
+            port=$(echo $line | sed -n 's/.*:\([0-9]*\).*/\1/p')
 
-              if [ -n "$host" ] && [ -n "$port" ]; then
-                timeout 3 bash -c "</dev/tcp/$host/$port" 2>/dev/null && echo "$line" >> working.txt || true
+            # Проверяем открытый порт
+            if [ -n "$host" ] && [ -n "$port" ]; then
+              if timeout 3 bash -c "</dev/tcp/$host/$port" 2>/dev/null; then
+                echo $line >> working.txt
               fi
-            done < filtered.txt
-          fi
+            fi
+          done < filtered.txt
 
       - name: Update repository file
         run: |
@@ -55,8 +54,9 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
+
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+          git commit -m "Auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push
 
       - name: Log total working proxies
