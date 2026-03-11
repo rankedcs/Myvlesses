@@ -69,8 +69,8 @@ jobs:
         env:
           MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
         run: |
-          git config --global user.name "MyGitHubUsername"
-          git config --global user.email "youremail@example.com"
+          git config --global user.name "rankedcs"
+          git config --global user.email "qwertyuiop7017@mail.ru"
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
           git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push https://MyGitHubUsername:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git HEAD:main
