@@ -2,7 +2,7 @@ name: Upload proxy.txt to Yandex Disk
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # каждые 6 часов
+    - cron: "0 */5 * * *"   # каждые 6 часов
   workflow_dispatch:       # можно запускать вручную
 
 jobs:
