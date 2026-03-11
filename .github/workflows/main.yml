@@ -73,7 +73,7 @@ jobs:
           git config --global user.email "qwertyuiop7017@mail.ru"
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
           git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          git push https://MyGitHubUsername:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git HEAD:main
+          git push https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git HEAD:main
 
       # 8️⃣ Логируем количество рабочих прокси
       - name: Log total working proxies
