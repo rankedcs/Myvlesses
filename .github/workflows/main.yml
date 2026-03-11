@@ -37,7 +37,7 @@ jobs:
           PUBLIC_KEY=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
           "https://cloud-api.yandex.net/v1/disk/resources?path=disk:/proxy.txt" | jq -r '.public_key')
 
-          # Получаем прямую ссылку для скачивания (cloud-api.yandex.net, белый список)
+          # Получаем прямую ссылку через cloud-api.yandex.net (работает с белым списком)
           DIRECT_LINK=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
           "https://cloud-api.yandex.net/v1/disk/public/resources/download?public_key=$PUBLIC_KEY" | jq -r '.href')
 
