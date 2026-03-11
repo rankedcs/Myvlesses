@@ -1,12 +1,9 @@
-name: Safe Update Russia VLESS v6
+name: Safe Update Russia VLESS with PAT
 
 on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   update:
@@ -15,8 +12,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install required tools
         run: |
@@ -63,13 +58,13 @@ jobs:
       - name: Update repository file
         run: mv working.txt Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      - name: Commit changes
+      - name: Commit changes with PAT
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
           git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/rankedcs/Myvlesses.git HEAD:main
+          git push https://$GITHUB_ACTOR:${{ secrets.MY_GITHUB_PAT }}@github.com/rankedcs/Myvlesses.git HEAD:main
 
       - name: Log total working proxies
         run: |
