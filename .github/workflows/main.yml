@@ -1,4 +1,4 @@
-name: Safe Update Russia VLESS with PAT
+name: Safe Update Russia VLESS v7
 
 on:
   schedule:
@@ -59,12 +59,14 @@ jobs:
         run: mv working.txt Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
       - name: Commit changes with PAT
+        env:
+          MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "YourGitHubUsername"
+          git config --global user.email "youremail@example.com"
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
           git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          git push https://$GITHUB_ACTOR:${{ secrets.MY_GITHUB_PAT }}@github.com/rankedcs/Myvlesses.git HEAD:main
+          git push https://YourGitHubUsername:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git HEAD:main
 
       - name: Log total working proxies
         run: |
