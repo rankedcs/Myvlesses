@@ -9,9 +9,9 @@ jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - name: Download proxy.txt from repo
+      - name: Download Vless-Reality-White-Lists-Rus-Mobile-2.txt from repo
         run: |
-          curl -L -o proxy.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o Vless-Reality-White-Lists-Rus-Mobile-2.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
       - name: Upload to Yandex Disk
         run: |
           UPLOAD_URL=$(curl -s -H "Authorization: OAuth ${{ secrets.y0__xDNw7fKBxiY6j4gpZfE2xYwuKvrsghwI3-1xvyWC-1t5RSMsBqoTFXA6Q }}" \
