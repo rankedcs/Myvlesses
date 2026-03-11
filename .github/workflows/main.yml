@@ -1,0 +1,21 @@
+name: Upload proxy.txt to Yandex Disk
+
+on:
+  schedule:
+    - cron: "0 */5 * * *"   # каждые 6 часов
+  workflow_dispatch:       # можно запускать вручную
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download proxy.txt from repo
+        run: |
+          curl -L -o proxy.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+      - name: Upload to Yandex Disk
+        run: |
+          UPLOAD_URL=$(curl -s -H "Authorization: OAuth ${{ secrets.y0__xDNw7fKBxiY6j4gpZfE2xYwuKvrsghwI3-1xvyWC-1t5RSMsBqoTFXA6Q }}" \
+          "https://cloud-api.yandex.net/v1/disk/resources/upload?path=disk:/proxy.txt&overwrite=true" \
+          | jq -r '.href')
+
+          curl -T proxy.txt "$UPLOAD_URL"
