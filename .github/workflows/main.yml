@@ -1,8 +1,8 @@
-name: Update Russia VLESS
+name: Safe Update Russia VLESS v2
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # каждые 6 часов
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,10 +13,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install required tools
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y grep timeout sort uniq
+      - name: Install tools
+        run: sudo apt-get update && sudo apt-get install -y grep timeout sort uniq
 
       - name: Download source VLESS list
         run: |
@@ -24,39 +22,54 @@ jobs:
 
       - name: Filter only Russia proxies
         run: |
-          grep -i "russia" source.txt > filtered.txt
-
-      - name: Remove duplicates and sort
-        run: |
+          grep -i "russia" source.txt > filtered.txt || touch filtered.txt
           sort -u filtered.txt -o filtered.txt
 
-      - name: Check proxies (basic TCP check)
+      - name: Safe proxy check
         run: |
+          # Создаем пустой файл
           > working.txt
-          while read line; do
-            # Попытка извлечь хост и порт (предположим формат: user@host:port)
-            host=$(echo $line | sed -n 's/.*@\([^:]*\):.*/\1/p')
-            port=$(echo $line | sed -n 's/.*:\([0-9]*\).*/\1/p')
 
-            # Проверяем открытый порт
-            if [ -n "$host" ] && [ -n "$port" ]; then
-              if timeout 3 bash -c "</dev/tcp/$host/$port" 2>/dev/null; then
-                echo $line >> working.txt
+          # Функция для безопасного TCP check
+          safe_check() {
+            local host=$1
+            local port=$2
+            timeout 3 bash -c "</dev/tcp/$host/$port" 2>/dev/null && return 0 || return 1
+          }
+
+          total=0
+          ok=0
+
+          if [ ! -s filtered.txt ]; then
+            echo "No Russia proxies found, skipping TCP check"
+            cp filtered.txt working.txt
+          else
+            while IFS= read -r line; do
+              total=$((total+1))
+              host=$(echo "$line" | sed -n 's/.*@\([^:]*\):.*/\1/p')
+              port=$(echo "$line" | sed -n 's/.*:\([0-9]*\).*/\1/p')
+
+              if [ -n "$host" ] && [ -n "$port" ]; then
+                if safe_check "$host" "$port"; then
+                  echo "$line" >> working.txt
+                  ok=$((ok+1))
+                fi
               fi
-            fi
-          done < filtered.txt
+            done < filtered.txt
+          fi
+
+          echo "Total proxies checked: $total"
+          echo "Working proxies: $ok"
 
       - name: Update repository file
-        run: |
-          mv working.txt Vless-Reality-White-Lists-Rus-Mobile-2.txt
+        run: mv working.txt Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
       - name: Commit changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          git commit -m "Auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+          git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push
 
       - name: Log total working proxies
