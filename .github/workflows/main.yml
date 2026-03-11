@@ -1,4 +1,4 @@
-name: Safe Update Russia VLESS v4
+name: Safe Update Russia VLESS v5
 
 on:
   schedule:
@@ -19,7 +19,7 @@ jobs:
       - name: Install required tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y grep netcat
+          sudo apt-get install -y grep netcat-openbsd
 
       - name: Download source VLESS list
         run: |
