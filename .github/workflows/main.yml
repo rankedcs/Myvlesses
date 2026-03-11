@@ -1,26 +1,44 @@
 name: Upload proxy.txt to Yandex Disk
 
 on:
+  workflow_dispatch:       # запуск вручную
   schedule:
-    - cron: "0 */5 * * *"   # каждые 5 часов
-  workflow_dispatch:
+    - cron: "0 */6 * * *" # каждые 6 часов
 
 jobs:
   upload:
     runs-on: ubuntu-latest
+
     steps:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Download file from repo
+      - name: Download proxy file from repo
         run: |
-          curl -L -o Vless-Reality-White-Lists-Rus-Mobile-2.txt \
-          https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o proxy.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
       - name: Upload to Yandex Disk
         run: |
+          # Получаем URL для загрузки
           UPLOAD_URL=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
           "https://cloud-api.yandex.net/v1/disk/resources/upload?path=disk:/proxy.txt&overwrite=true" \
           | jq -r '.href')
 
-          curl -T Vless-Reality-White-Lists-Rus-Mobile-2.txt "$UPLOAD_URL"
+          # Загружаем файл
+          curl -T proxy.txt "$UPLOAD_URL"
+
+      - name: Make file public and get direct link
+        run: |
+          # Делаем файл публичным
+          curl -s -X PUT -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
+          "https://cloud-api.yandex.net/v1/disk/resources/publish?path=disk:/proxy.txt"
+
+          # Получаем публичный ключ
+          PUBLIC_KEY=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
+          "https://cloud-api.yandex.net/v1/disk/resources?path=disk:/proxy.txt" | jq -r '.public_key')
+
+          # Получаем прямую ссылку для скачивания (cloud-api.yandex.net, белый список)
+          DIRECT_LINK=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
+          "https://cloud-api.yandex.net/v1/disk/public/resources/download?public_key=$PUBLIC_KEY" | jq -r '.href')
+
+          echo "Direct link for happ: $DIRECT_LINK"
