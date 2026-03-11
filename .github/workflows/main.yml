@@ -1,4 +1,4 @@
-name: Safe Update Russia VLESS v7
+name: Safe Update Russia VLESS v8
 
 on:
   schedule:
@@ -10,23 +10,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout репозитория
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # 2️⃣ Установка инструментов
       - name: Install required tools
         run: |
           sudo apt-get update
           sudo apt-get install -y grep netcat-openbsd
 
+      # 3️⃣ Скачать исходный список прокси (raw URL)
       - name: Download source VLESS list
         run: |
-          curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o source.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
+      # 4️⃣ Фильтруем только Russia-прокси, убираем дубликаты
       - name: Filter only Russia proxies
         run: |
           grep -i "russia" source.txt > filtered.txt || touch filtered.txt
           sort -u filtered.txt -o filtered.txt
 
+      # 5️⃣ Проверка TCP подключения
       - name: Safe proxy check
         continue-on-error: true
         run: |
@@ -55,19 +60,22 @@ jobs:
           echo "Total proxies checked: $total"
           echo "Working proxies: $ok"
 
+      # 6️⃣ Обновляем файл в репозитории
       - name: Update repository file
         run: mv working.txt Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
+      # 7️⃣ Commit и push через PAT
       - name: Commit changes with PAT
         env:
           MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
         run: |
-          git config --global user.name "YourGitHubUsername"
+          git config --global user.name "MyGitHubUsername"
           git config --global user.email "youremail@example.com"
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
           git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          git push https://YourGitHubUsername:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git HEAD:main
+          git push https://MyGitHubUsername:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git HEAD:main
 
+      # 8️⃣ Логируем количество рабочих прокси
       - name: Log total working proxies
         run: |
           count=$(wc -l < Vless-Reality-White-Lists-Rus-Mobile-2.txt)
