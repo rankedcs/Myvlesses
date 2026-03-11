@@ -1,44 +1,65 @@
-name: Upload proxy.txt to Yandex Disk
+name: Update Russia VLESS
 
 on:
-  workflow_dispatch:       # запуск вручную
   schedule:
-    - cron: "0 */6 * * *" # каждые 6 часов
+    - cron: "0 */6 * * *"  # каждые 6 часов
+  workflow_dispatch:
 
 jobs:
-  upload:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - name: Download proxy file from repo
+      - name: Install required tools
         run: |
-          curl -L -o proxy.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          sudo apt-get update
+          sudo apt-get install -y grep timeout sort uniq
 
-      - name: Upload to Yandex Disk
+      - name: Download source VLESS list
         run: |
-          # Получаем URL для загрузки
-          UPLOAD_URL=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
-          "https://cloud-api.yandex.net/v1/disk/resources/upload?path=disk:/proxy.txt&overwrite=true" \
-          | jq -r '.href')
+          curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-          # Загружаем файл
-          curl -T proxy.txt "$UPLOAD_URL"
-
-      - name: Make file public and get direct link
+      - name: Filter only Russia proxies
         run: |
-          # Делаем файл публичным
-          curl -s -X PUT -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
-          "https://cloud-api.yandex.net/v1/disk/resources/publish?path=disk:/proxy.txt"
+          grep -i "russia" source.txt > filtered.txt
 
-          # Получаем публичный ключ
-          PUBLIC_KEY=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
-          "https://cloud-api.yandex.net/v1/disk/resources?path=disk:/proxy.txt" | jq -r '.public_key')
+      - name: Remove duplicates and sort
+        run: |
+          sort -u filtered.txt -o filtered.txt
 
-          # Получаем прямую ссылку через cloud-api.yandex.net (работает с белым списком)
-          DIRECT_LINK=$(curl -s -H "Authorization: OAuth ${{ secrets.YANDEX_TOKEN }}" \
-          "https://cloud-api.yandex.net/v1/disk/public/resources/download?public_key=$PUBLIC_KEY" | jq -r '.href')
+      - name: Check proxies (basic TCP check)
+        run: |
+          > working.txt
+          while read line; do
+            # Попытка извлечь хост и порт (предположим формат: user@host:port)
+            host=$(echo $line | sed -n 's/.*@\([^:]*\):.*/\1/p')
+            port=$(echo $line | sed -n 's/.*:\([0-9]*\).*/\1/p')
 
-          echo "Direct link for happ: $DIRECT_LINK"
+            # Проверяем открытый порт
+            if [ -n "$host" ] && [ -n "$port" ]; then
+              if timeout 3 bash -c "</dev/tcp/$host/$port" 2>/dev/null; then
+                echo $line >> working.txt
+              fi
+            fi
+          done < filtered.txt
+
+      - name: Update repository file
+        run: |
+          mv working.txt Vless-Reality-White-Lists-Rus-Mobile-2.txt
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+
+          git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          git commit -m "Auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+          git push
+
+      - name: Log total working proxies
+        run: |
+          count=$(wc -l < Vless-Reality-White-Lists-Rus-Mobile-2.txt)
+          echo "Total working Russia proxies: $count"
