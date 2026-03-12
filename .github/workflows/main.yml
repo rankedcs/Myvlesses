@@ -41,7 +41,7 @@ jobs:
 
           done
 
-          sort -n ping_results.txt | head -n 6 | cut -d' ' -f2- > best.txt
+          sort -n ping_results.txt | head -n 9 | cut -d' ' -f2- > best.txt
 
           echo "# profile-title: 🇷🇺 КАМЕНКА🇷🇺" > Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "# profile-update-interval: 1" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
