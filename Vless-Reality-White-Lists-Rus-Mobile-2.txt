@@ -1,3 +1,6 @@
+# profile-title: 🇷🇺 КАМЕНКА🇷🇺
+# profile-update-interval: 3
+
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 vless://16295099-e712-4bcf-847e-8bb0a137a6c5@212.233.89.96:51760?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic&sid=abbcd128#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D%20VK
 vless://16295099-e712-4bcf-847e-8bb0a137a6c5@212.233.91.165:51760?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic&sid=abbcd128#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D%20VK
