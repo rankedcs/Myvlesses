@@ -5,54 +5,46 @@ on:
     - cron: "0 */3 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Download source list
         run: |
           curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      - name: Clean and filter proxies
+      - name: Filter and clean proxies
         run: |
+          grep -i "russia" source.txt > temp.txt || true
 
-          # берём только Russia
-          grep -i "russia" source.txt > temp.txt
-
-          # меняем Russia → Россия
           sed -i 's/Russia/Россия/gI' temp.txt
 
-          # убираем всё после Россия
           sed -E 's/(Россия).*/\1/' temp.txt > cleaned.txt
 
-          # удаляем дубликаты
           sort -u cleaned.txt > proxies.txt
 
-          # создаём итоговый файл
           echo "# profile-title: 🇷🇺 КАМЕНКА🇷🇺" > Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "# profile-update-interval: 3" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
           cat proxies.txt >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      - name: Commit and push
-        env:
-          MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+      - name: Commit changes
         run: |
-
           git config --global user.name "rankedcs"
           git config --global user.email "qwertyuiop7017@mail.ru"
 
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          git commit -m "Auto update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+          git commit -m "Auto update Russia VLESS $(date '+%Y-%m-%d %H:%M')" || echo "No changes"
 
-          git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
-
-          git pull --rebase origin main || true
-
-          git push origin HEAD:main || true
+      - name: Push changes
+        run: |
+          git pull origin main --rebase
+          git push origin main
