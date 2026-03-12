@@ -1,8 +1,8 @@
-name: Update Russia VLESS
+name: Update Russia VLESS Clean
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,35 +10,49 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Download source list
         run: |
-          curl -L -o source.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      - name: Filter and clean Russia proxies
+      - name: Clean and filter proxies
         run: |
-          # 1️⃣ Берём только строки с Russia
-          grep -i "Russia" source.txt | sort -u > temp.txt
 
-          # 2️⃣ Заменяем Russia на Россия
+          # берём только Russia
+          grep -i "russia" source.txt > temp.txt
+
+          # меняем Russia → Россия
           sed -i 's/Russia/Россия/gI' temp.txt
 
-          # 3️⃣ Убираем лишние слова после Россия (Vk, Yandex, cidr, vless)
-          #    Оставляем всё до первого пробела после Россия
-          awk '{for(i=1;i<=NF;i++){if($i=="Россия"){printf "%s",$i; for(j=i+1;j<=NF;j++){if($j ~ /^(Vk|Yandex|cidr|vless)$/){break} else{printf " %s",$j}}; print ""}}}' temp.txt > Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          # убираем всё после Россия
+          sed -E 's/(Россия).*/\1/' temp.txt > cleaned.txt
 
-          # 4️⃣ Добавляем заголовки в начало файла
-          sed -i '1i # profile-title: 🇷🇺 КАМЕНКА🇷🇺\n# profile-update-interval: 3' Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          # удаляем дубликаты
+          sort -u cleaned.txt > proxies.txt
+
+          # создаём итоговый файл
+          echo "# profile-title: 🇷🇺 КАМЕНКА🇷🇺" > Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          echo "# profile-update-interval: 3" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          echo "" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
+
+          cat proxies.txt >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
       - name: Commit and push
         env:
           MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
         run: |
+
           git config --global user.name "rankedcs"
           git config --global user.email "qwertyuiop7017@mail.ru"
+
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
           git commit -m "Auto update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+
           git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
-          git push origin HEAD:main
+
+          git pull --rebase origin main || true
+
+          git push origin HEAD:main || true
