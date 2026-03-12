@@ -1,4 +1,4 @@
-name: Safe Update Russia VLESS v10
+name: Safe Update Russia VLESS
 
 on:
   schedule:
@@ -10,44 +10,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout репозитория
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Установка инструментов
-      - name: Install required tools
+      - name: Install tools
         run: |
           sudo apt-get update
           sudo apt-get install -y grep netcat-openbsd
 
-      # 3️⃣ Скачать исходный список прокси (raw URL)
       - name: Download source VLESS list
         run: |
           curl -L -o source.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      # 4️⃣ Фильтруем только Russia-прокси, убираем дубликаты
-      - name: Filter only Russia proxies
+      - name: Filter Russia proxies
         run: |
           grep -i "russia" source.txt > filtered.txt || touch filtered.txt
           sort -u filtered.txt -o filtered.txt
 
-      # 5️⃣ Проверка TCP подключения
-      - name: Safe proxy check
+      - name: Check working proxies (TCP)
         continue-on-error: true
         run: |
           > working.txt
           total=0
           ok=0
-
           if [ ! -s filtered.txt ]; then
-            echo "No Russia proxies found, skipping TCP check"
             cp filtered.txt working.txt
           else
             while IFS= read -r line; do
               total=$((total+1))
               host=$(echo "$line" | sed -n 's/.*@\([^:]*\):.*/\1/p')
               port=$(echo "$line" | sed -n 's/.*:\([0-9]*\).*/\1/p')
-
               if [ -n "$host" ] && [ -n "$port" ]; then
                 if nc -z -w 3 "$host" "$port"; then
                   echo "$line" >> working.txt
@@ -56,16 +48,13 @@ jobs:
               fi
             done < filtered.txt
           fi
-
           echo "Total proxies checked: $total"
           echo "Working proxies: $ok"
 
-      # 6️⃣ Обновляем файл в репозитории
-      - name: Update repository file
+      - name: Update file
         run: mv working.txt Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      # 7️⃣ Commit и push через PAT с reset remote
-      - name: Commit and push changes via PAT
+      - name: Commit and push via PAT
         env:
           MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
         run: |
@@ -73,11 +62,10 @@ jobs:
           git config --global user.email "qwertyuiop7017@mail.ru"
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
           git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          # Сбрасываем remote URL с PAT, чтобы push шел от пользователя
+          # Сбрасываем remote URL с PAT, чтобы push точно шел от пользователя
           git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
           git push origin HEAD:main
 
-      # 8️⃣ Логируем количество рабочих прокси
       - name: Log total working proxies
         run: |
           count=$(wc -l < Vless-Reality-White-Lists-Rus-Mobile-2.txt)
