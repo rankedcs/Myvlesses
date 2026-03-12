@@ -19,7 +19,14 @@ jobs:
 
       - name: Filter Russia proxies
         run: |
-          grep -i "russia" source.txt | sort -u > temp.txt
+          grep -i "russia" source.txt \
+          | grep -i "^vless://" \
+          | grep -v '\[' \
+          | grep -vi "cidr" \
+          | grep -vi "iprange" \
+          | sort -u \
+          | head -n 6 \
+          > temp.txt
 
           # заменяем Russia → Россия
           sed 's/Russia/Россия/gI' temp.txt > proxies.txt
