@@ -21,6 +21,7 @@ jobs:
         run: |
           grep -i "russia" source.txt | sort -u > proxies.txt
 
+          # Добавляем заголовок в начало файла
           echo "# profile-title: 🇷🇺 КАМЕНКА🇷🇺" > Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "# profile-update-interval: 3" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
@@ -39,5 +40,7 @@ jobs:
 
           git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
 
-          git pull --rebase origin main
-          git push origin HEAD:main
+          # подтягиваем все изменения перед пушем
+          git pull --rebase origin main || true
+
+          git push origin HEAD:main || true
