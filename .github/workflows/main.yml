@@ -1,4 +1,4 @@
-name: Safe Update Russia VLESS v9
+name: Safe Update Russia VLESS v10
 
 on:
   schedule:
@@ -64,8 +64,8 @@ jobs:
       - name: Update repository file
         run: mv working.txt Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      # 7️⃣ Commit и push через PAT
-      - name: Commit changes with PAT
+      # 7️⃣ Commit и push через PAT с reset remote
+      - name: Commit and push changes via PAT
         env:
           MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
         run: |
@@ -73,7 +73,9 @@ jobs:
           git config --global user.email "qwertyuiop7017@mail.ru"
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
           git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          git push https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git HEAD:main
+          # Сбрасываем remote URL с PAT, чтобы push шел от пользователя
+          git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
+          git push origin HEAD:main
 
       # 8️⃣ Логируем количество рабочих прокси
       - name: Log total working proxies
