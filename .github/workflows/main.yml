@@ -2,7 +2,7 @@ name: Update Russia VLESS
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,35 +13,41 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Install netcat
+        run: sudo apt-get update && sudo apt-get install -y netcat-openbsd
+
       - name: Download source list
         run: |
           curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      - name: Ping test and sort
+      - name: Ping test and select fastest
         run: |
           > ping_results.txt
-          while IFS= read -r line; do
-            # извлекаем host и port
-            host=$(echo "$line" | sed -n 's/.*@\([^:]*\):\([0-9]*\).*/\1/p')
-            port=$(echo "$line" | sed -n 's/.*@\([^:]*\):\([0-9]*\).*/\2/p')
+
+          grep -i "russia" source.txt | grep -v '\[' | while read line; do
+
+            host=$(echo "$line" | sed -n 's/.*@\([^:]*\):.*/\1/p')
+            port=$(echo "$line" | sed -n 's/.*:\([0-9]*\).*/\1/p')
+
             if [ -n "$host" ] && [ -n "$port" ]; then
               start=$(date +%s%3N)
+
               if nc -z -w 2 "$host" "$port"; then
                 end=$(date +%s%3N)
-                ping_time=$((end-start))
-                echo "$ping_time $line" >> ping_results.txt
+                ping=$((end-start))
+                echo "$ping $line" >> ping_results.txt
               fi
             fi
-          done < source.txt
 
-          # сортируем по ping (самые быстрые сверху)
-          sort -n ping_results.txt | awk '{ $1=""; print substr($0,2) }' > sorted.txt
+          done
 
-          # создаём итоговый файл с заголовком
+          sort -n ping_results.txt | head -n 6 | cut -d' ' -f2- > best.txt
+
           echo "# profile-title: 🇷🇺 КАМЕНКА🇷🇺" > Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "# profile-update-interval: 3" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          cat sorted.txt >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
+
+          cat best.txt >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
       - name: Commit and push
         env:
