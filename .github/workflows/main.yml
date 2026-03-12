@@ -15,11 +15,22 @@ jobs:
 
       - name: Download source list
         run: |
-          curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o source.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      - name: Filter Russia proxies
+      - name: Filter and clean Russia proxies
         run: |
-          grep -i "russia" source.txt | sort -u > Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          # 1️⃣ Берём только строки с Russia
+          grep -i "Russia" source.txt | sort -u > temp.txt
+
+          # 2️⃣ Заменяем Russia на Россия
+          sed -i 's/Russia/Россия/gI' temp.txt
+
+          # 3️⃣ Убираем лишние слова после Россия (Vk, Yandex, cidr, vless)
+          #    Оставляем всё до первого пробела после Россия
+          awk '{for(i=1;i<=NF;i++){if($i=="Россия"){printf "%s",$i; for(j=i+1;j<=NF;j++){if($j ~ /^(Vk|Yandex|cidr|vless)$/){break} else{printf " %s",$j}}; print ""}}}' temp.txt > Vless-Reality-White-Lists-Rus-Mobile-2.txt
+
+          # 4️⃣ Добавляем заголовки в начало файла
+          sed -i '1i # profile-title: 🇷🇺 КАМЕНКА🇷🇺\n# profile-update-interval: 3' Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
       - name: Commit and push
         env:
@@ -27,9 +38,7 @@ jobs:
         run: |
           git config --global user.name "rankedcs"
           git config --global user.email "qwertyuiop7017@mail.ru"
-
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
           git commit -m "Auto update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-
           git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
           git push origin HEAD:main
