@@ -1,8 +1,8 @@
-name: Safe Update Russia VLESS v8
+name: Safe Update Russia VLESS v9
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * *"  # каждые 6 часов
   workflow_dispatch:
 
 jobs:
