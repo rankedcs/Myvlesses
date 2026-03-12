@@ -19,12 +19,8 @@ jobs:
 
       - name: Filter Russia proxies
         run: |
-          grep -i "russia" source.txt | sort -u > temp.txt
+          grep -i "russia" source.txt | sort -u > proxies.txt
 
-          # заменяем Russia → Россия
-          sed 's/Russia/Россия/gI' temp.txt > proxies.txt
-
-          # создаём итоговый файл
           echo "# profile-title: 🇷🇺 КАМЕНКА🇷🇺" > Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "# profile-update-interval: 3" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
