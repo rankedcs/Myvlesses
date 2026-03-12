@@ -1,8 +1,8 @@
-name: Safe Update Russia VLESS
+name: Update Russia VLESS
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # каждые 6 часов
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,60 +13,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install tools
+      - name: Download source list
         run: |
-          sudo apt-get update
-          sudo apt-get install -y grep netcat-openbsd
-
-      - name: Download source VLESS list
-        run: |
-          curl -L -o source.txt https://raw.githubusercontent.com/rankedcs/Myvlesses/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
       - name: Filter Russia proxies
         run: |
-          grep -i "russia" source.txt > filtered.txt || touch filtered.txt
-          sort -u filtered.txt -o filtered.txt
+          grep -i "russia" source.txt | sort -u > Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      - name: Check working proxies (TCP)
-        continue-on-error: true
-        run: |
-          > working.txt
-          total=0
-          ok=0
-          if [ ! -s filtered.txt ]; then
-            cp filtered.txt working.txt
-          else
-            while IFS= read -r line; do
-              total=$((total+1))
-              host=$(echo "$line" | sed -n 's/.*@\([^:]*\):.*/\1/p')
-              port=$(echo "$line" | sed -n 's/.*:\([0-9]*\).*/\1/p')
-              if [ -n "$host" ] && [ -n "$port" ]; then
-                if nc -z -w 3 "$host" "$port"; then
-                  echo "$line" >> working.txt
-                  ok=$((ok+1))
-                fi
-              fi
-            done < filtered.txt
-          fi
-          echo "Total proxies checked: $total"
-          echo "Working proxies: $ok"
-
-      - name: Update file
-        run: mv working.txt Vless-Reality-White-Lists-Rus-Mobile-2.txt
-
-      - name: Commit and push via PAT
+      - name: Commit and push
         env:
           MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
         run: |
           git config --global user.name "rankedcs"
           git config --global user.email "qwertyuiop7017@mail.ru"
+
           git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          git commit -m "Safe auto-update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          # Сбрасываем remote URL с PAT, чтобы push точно шел от пользователя
+          git commit -m "Auto update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+
           git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
           git push origin HEAD:main
-
-      - name: Log total working proxies
-        run: |
-          count=$(wc -l < Vless-Reality-White-Lists-Rus-Mobile-2.txt)
-          echo "Total working Russia proxies: $count"
