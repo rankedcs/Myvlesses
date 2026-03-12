@@ -17,19 +17,13 @@ jobs:
         run: |
           curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
-      - name: Filter Russia proxies
+      - name: Filter proxies
         run: |
-          grep -i "russia" source.txt | sort -u > temp.txt
-
-          # заменяем Russia → Россия
-          sed 's/Russia/Россия/gI' temp.txt > proxies.txt
-
-          # создаём итоговый файл
-          echo "# profile-title: 🇷🇺 КАМЕНКА🇷🇺" > Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          echo "# profile-update-interval: 3" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          echo "" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
-
-          cat proxies.txt >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          grep -i "russia" source.txt \
+          | grep -v '\[' \
+          | sort -u \
+          | head -n 6 \
+          > Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
       - name: Commit and push
         env:
@@ -42,6 +36,5 @@ jobs:
           git commit -m "Auto update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
 
           git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
-
           git pull --rebase origin main
           git push origin HEAD:main
