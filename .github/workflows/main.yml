@@ -32,5 +32,4 @@ jobs:
           git commit -m "Auto update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
 
           git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
-          git pull --rebase origin main
           git push origin HEAD:main
