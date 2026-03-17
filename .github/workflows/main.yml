@@ -1,4 +1,4 @@
-name: Update Russia VLESS
+name: Update Russia VLESS PRO
 
 on:
   schedule:
@@ -16,39 +16,88 @@ jobs:
       - name: Install netcat
         run: sudo apt-get update && sudo apt-get install -y netcat-openbsd
 
-      - name: Download source list
+      # 🔽 источники
+      - name: Download sources
         run: |
-          curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o source1.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o source2.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 
-      - name: Ping test and select fastest
+      # 🔽 объединение + фильтр
+      - name: Merge and filter
+        run: |
+          cat source1.txt source2.txt \
+          | grep -i "russia" \
+          | grep "^vless://" \
+          | grep -v '\[' \
+          | sort -u \
+          > filtered.txt
+
+      # 🔽 проверка и пинг
+      - name: Smart proxy check
         run: |
           > ping_results.txt
+          > fallback.txt
 
-          grep -i "russia" source.txt | grep -v '\[' | while read line; do
+          total=0
+          ok=0
+
+          while read line; do
+            total=$((total+1))
 
             host=$(echo "$line" | sed -n 's/.*@\([^:]*\):.*/\1/p')
             port=$(echo "$line" | sed -n 's/.*:\([0-9]*\).*/\1/p')
 
             if [ -n "$host" ] && [ -n "$port" ]; then
+
+              # сохраняем fallback всегда
+              echo "$line" >> fallback.txt
+
               start=$(date +%s%3N)
 
               if nc -z -w 2 "$host" "$port"; then
                 end=$(date +%s%3N)
                 ping=$((end-start))
-                echo "$ping $line" >> ping_results.txt
+
+                # отсеиваем слишком долгие (>2000мс)
+                if [ "$ping" -lt 2000 ]; then
+                  echo "$ping $line" >> ping_results.txt
+                  ok=$((ok+1))
+                fi
               fi
+
             fi
+          done < filtered.txt
 
-          done
+          echo "Total: $total"
+          echo "Alive: $ok"
 
-          sort -n ping_results.txt | head -n 6 | cut -d' ' -f2- > best.txt
+          # 🔽 выбор количества
+          if [ "$ok" -ge 10 ]; then
+            count=10
+          elif [ "$ok" -ge 6 ]; then
+            count=6
+          else
+            count=3
+          fi
 
+          # 🔽 если есть живые — берём лучшие
+          if [ -s ping_results.txt ]; then
+            sort -n ping_results.txt | head -n $count | cut -d' ' -f2- > best.txt
+          else
+            echo "No alive proxies, using fallback"
+            head -n 6 fallback.txt > best.txt
+          fi
+
+      # 🔽 финальный файл
+      - name: Build final file
+        run: |
           echo "# profile-title: 🇷🇺 КАМЕНКА🇷🇺" > Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "# profile-update-interval: 1" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
           cat best.txt >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
+      # 🔽 пуш (без конфликтов)
       - name: Commit and push
         env:
           MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
@@ -56,9 +105,11 @@ jobs:
           git config --global user.name "rankedcs"
           git config --global user.email "qwertyuiop7017@mail.ru"
 
-          git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          git commit -m "Auto update Russia VLESS $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-
           git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
+
           git pull --rebase origin main
+
+          git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          git commit -m "PRO update $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+
           git push origin HEAD:main
