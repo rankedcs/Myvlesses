@@ -22,12 +22,11 @@ jobs:
       - name: Download sources
         run: |
           curl -L -o source1.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          curl -L -o source2.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
-
+          
       # 🔽 объединяем и фильтруем
       - name: Merge and filter
         run: |
-          cat source1.txt source2.txt \
+          cat source1.txt \
           | grep -i "russia" \
           | grep "^vless://" \
           | grep -v '\[' \
