@@ -1,8 +1,8 @@
-name: Update Smart VLESS
+name: Update Russia VLESS PRO
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */1 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,39 +10,94 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 🔽 получаем репозиторий
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download source list
+      # 🔽 ставим netcat
+      - name: Install netcat
+        run: sudo apt-get update && sudo apt-get install -y netcat-openbsd
+
+      # 🔽 скачиваем оба источника
+      - name: Download sources
         run: |
-          curl -L -o source.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o source1.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          curl -L -o source2.txt https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 
-      - name: Smart filter (Reality + TLS + SNI)
+      # 🔽 объединяем и фильтруем
+      - name: Merge and filter
         run: |
-          # базовая фильтрация
-          grep -i "^vless://" source.txt \
-          | grep -i "security=reality" \
-          | grep -i "type=tcp" \
-          | grep -i "sni=" \
-          | grep -vi "cidr" \
-          | grep -vi "range" \
-          | sort -u > base.txt
+          cat source1.txt source2.txt \
+          | grep -i "russia" \
+          | grep "^vless://" \
+          | grep -v '\[' \
+          | sort -u \
+          > filtered.txt
 
-          # Russia
-          grep -i "russia" base.txt | head -n 4 > russia.txt
+      # 🔽 проверка + пинг + умный выбор
+      - name: Smart proxy check
+        run: |
+          > ping_results.txt
+          > fallback.txt
 
-          # Anycast
-          grep -i "anycast" base.txt | head -n 4 > anycast.txt
+          total=0
+          ok=0
 
-          # объединяем
-          cat russia.txt anycast.txt > final.txt
+          while read line; do
+            total=$((total+1))
 
-          # итоговый файл
+            host=$(echo "$line" | sed -n 's/.*@\([^:]*\):.*/\1/p')
+            port=$(echo "$line" | sed -n 's/.*:\([0-9]*\).*/\1/p')
+
+            if [ -n "$host" ] && [ -n "$port" ]; then
+
+              echo "$line" >> fallback.txt
+
+              start=$(date +%s%3N)
+
+              if nc -z -w 2 "$host" "$port"; then
+                end=$(date +%s%3N)
+                ping=$((end-start))
+
+                if [ "$ping" -lt 2000 ]; then
+                  echo "$ping $line" >> ping_results.txt
+                  ok=$((ok+1))
+                fi
+              fi
+
+            fi
+          done < filtered.txt
+
+          echo "Total: $total"
+          echo "Alive: $ok"
+
+          # выбор количества
+          if [ "$ok" -ge 10 ]; then
+            count=10
+          elif [ "$ok" -ge 6 ]; then
+            count=6
+          else
+            count=3
+          fi
+
+          # fallback
+          if [ -s ping_results.txt ]; then
+            sort -n ping_results.txt | head -n $count | cut -d' ' -f2- > best.txt
+          else
+            echo "No alive proxies, using fallback"
+            head -n 6 fallback.txt > best.txt
+          fi
+
+      # 🔽 собираем итоговый файл
+      - name: Build final file
+        run: |
           echo "# profile-title: 🇷🇺 КАМЕНКА🇷🇺" > Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          echo "# profile-update-interval: 3" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          echo "# profile-update-interval: 1" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
           echo "" >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          cat final.txt >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
 
+          cat best.txt >> Vless-Reality-White-Lists-Rus-Mobile-2.txt
+
+      # 🔽 фикс push (БЕЗ ОШИБОК)
       - name: Commit and push
         env:
           MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
@@ -50,9 +105,14 @@ jobs:
           git config --global user.name "rankedcs"
           git config --global user.email "qwertyuiop7017@mail.ru"
 
-          git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
-          git commit -m "Smart VLESS update $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-
           git remote set-url origin https://rankedcs:${MY_GITHUB_PAT}@github.com/rankedcs/Myvlesses.git
-          git pull --rebase origin main
+
+          # сначала коммит
+          git add Vless-Reality-White-Lists-Rus-Mobile-2.txt
+          git commit -m "PRO update $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
+
+          # безопасный pull
+          git pull --rebase origin main || git rebase --abort
+
+          # пуш
           git push origin HEAD:main
