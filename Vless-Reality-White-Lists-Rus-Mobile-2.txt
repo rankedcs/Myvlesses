@@ -1,9 +1,5 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://1babf197-af69-406e-aae2-83c411ae979f@80.66.78.199:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=sw.thepatriot.ru&pbk=OxcrSb1-5klOHhtplgQhhYwEoIbHqexVb-zUlivHvBs&sid=3ff6cfc6c5#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://fc3fe90c-734b-49e6-9893-f48a8c901361@176.123.164.180:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=randomized&pbk=KC8Z8Q-ioEjsH6okqp798zw8am3b4oWoor01aQaRoCo&sid=0482743c967a4454&sni=ru1.node.velum-vpn.ru&path=&host=ru1.node.velum-vpn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://fc3fe90c-734b-49e6-9893-f48a8c901361@176.123.164.180:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=ru1.node.velum-vpn.ru&pbk=KC8Z8Q-ioEjsH6okqp798zw8am3b4oWoor01aQaRoCo&sid=0482743c967a4454#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://ef5c1f49-dc22-4243-9d41-731af7aab7ad@37.139.35.64:5444?encryption=none&type=xhttp&security=reality&mode=auto&extra=null&fp=qq&sni=ads.x5.ru&pbk=kFiHVL1rkURP6u8UVc0v7L_9uYiEKK3YaQak51nxuXY&sid=bad5722c72a038&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
-vless://ef5c1f49-dc22-4243-9d41-731af7aab7ad@37.139.35.64:5443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q&sid=bad5722c72a038#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
-vless://d3cecdcf-7fdf-4eae-9f9a-19eac9a16d6a@212.233.89.75:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://de7dae5a-f817-4c80-9543-ff9b8a4fd035@5.188.156.23:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=apple.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://7dcfe810-294b-498c-baff-b024d81b54a6@5.188.156.23:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=apple.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
