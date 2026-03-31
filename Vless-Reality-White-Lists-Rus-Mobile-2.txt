@@ -1,6 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://7fc953d6-ae75-46fb-a970-10b57d513487@45.139.27.63:443?encryption=none&security=tls&sni=emerge-01.uiu.fyi&fp=chrome&alpn=h2&insecure=0&allowInsecure=0&type=xhttp&path=%2Fapi%2Fv2%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://c792eb3f-7ab2-4f18-90c4-2dc86071b837@77.233.221.49:443?encryption=none&type=tcp&security=reality&fp=firefox&sni=st.ozone.ru&pbk=TV4U5lycYfT8fCVIH20ascTfX5F4BsSBo2pzG5Djvh0&sid=2ea5c64c&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://7e45456d-00b0-4da2-a7ea-76c5d943a57a@5.188.115.111:443?flow=xtls-rprx-vision&sni=ads.x5.ru&security=reality&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://7e45456d-00b0-4da2-a7ea-76c5d943a57a@51.250.5.237:443?flow=xtls-rprx-vision&sni=ads.x5.ru&security=reality&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
 vless://2f7e7add-17c0-49d4-9f9f-32b4a6c8b265@ru-02.maxonelove.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ru-02.maxonelove.com&fp=qq&pbk=bqoZnQgCG5B4vLKc-mgL-CHRI06Q0H1bv9zBcpo9zjE&sid=c05d4c564d2bcd&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
