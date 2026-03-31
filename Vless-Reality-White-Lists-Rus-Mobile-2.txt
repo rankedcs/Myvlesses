@@ -1,6 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://7e45456d-00b0-4da2-a7ea-76c5d943a57a@5.188.115.111:443?flow=xtls-rprx-vision&sni=ads.x5.ru&security=reality&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://7e45456d-00b0-4da2-a7ea-76c5d943a57a@51.250.5.237:443?flow=xtls-rprx-vision&sni=ads.x5.ru&security=reality&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
-vless://2f7e7add-17c0-49d4-9f9f-32b4a6c8b265@ru-02.maxonelove.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ru-02.maxonelove.com&fp=qq&pbk=bqoZnQgCG5B4vLKc-mgL-CHRI06Q0H1bv9zBcpo9zjE&sid=c05d4c564d2bcd&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://1546f279-2acc-40f5-9d1f-0e94d54db834@45.139.24.85:48444?security=reality&encryption=none&pbk=FApUbcJurXfV5Y3PG2xRycl1R7y0CxwmUU7FRgUpzG0&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=eh.vk.com&sid=a1b2c3d4#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://f1881fb7-3d7c-42d4-ab52-1a9eebf6fb71@ru-02.maxonelove.com:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=bqoZnQgCG5B4vLKc-mgL-CHRI06Q0H1bv9zBcpo9zjE&sid=96962fed&sni=ru-02.maxonelove.com#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://56022eef-4ade-4240-b0cc-eb006797e7ac@94.126.207.245:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=api.vk.com&pbk=V32osv0u9T3QItvyk4UgK-mjJuXkXLn4u_3pbk8eNgs&sid=9339#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
