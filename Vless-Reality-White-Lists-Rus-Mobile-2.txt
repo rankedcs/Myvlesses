@@ -2,8 +2,5 @@
 # profile-update-interval: 1
 
 vless://40353a93-e0e8-402c-a480-d0bf600be8bb@94.26.249.249:8443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=xyz&fp=chrome&sni=another.warriorofblacksun.run&pbk=Jx3-T6hnOqY0JL3XrKReYOZk7XAcHr-julwYzBcXzj0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://46917323-63d4-4797-9543-21b5d4ff7d7b@91.196.35.136:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=yandex.ru&pbk=GJ9tYj_nxx6OGEcFdFVV8H5HRcE-WsuVHvfAXQk_en8#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://023a6c5c-6933-4735-90bc-fa435b955927@85.239.61.193:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=yahoo.com&pbk=iNHjpSHOGfa1qz-EIC2NG2iV_zcvEx0DC3FD936YURk&sid=8820&spx=/#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://3de26259-e6b4-4b22-af75-2f473d548e94@84.54.39.184:2083?encryption=none&fp=qq&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&security=reality&serviceName=UpdateService&sid=6da16b1335651b38&sni=goya.rutube.ru&type=grpc&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://859ff803-c425-4cf3-b978-646cdbe4954d@5.188.114.99:8080?encryption=none&type=xhttp&security=reality&mode=auto&extra=null&fp=chrome&sni=www.rutube.ru&pbk=cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg&sid=3f8ad1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://3de26259-e6b4-4b22-af75-2f473d548e94@ru.appav.net:2083?encryption=none&fp=qq&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&security=reality&serviceName=UpdateService&sid=6da16b1335651b38&sni=goya.rutube.ru&type=grpc&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://f40f1bcb-83b6-41fc-a315-d2502ca08792@212.192.14.160:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=goodcardboard.shop&pbk=rDPZZOBMmBb_mNKPEewzp9Uu6zkGrP7XOVpnRzetXDc&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
