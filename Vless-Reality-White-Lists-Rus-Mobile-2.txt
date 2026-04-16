@@ -1,5 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://75807638-6f19-07d0-ae08-38492ee85c88@95.213.184.77:52006?allowInsecure=1&alpn=http/1.1&encryption=none&flow=xtls-rprx-vision&security=tls&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@95.213.184.74:52006?allowInsecure=1&alpn=http%2F1.1&encryption=none&flow=xtls-rprx-vision&security=tls&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://c911018e-3cb0-485f-88d8-d72e2d90506a@193.39.168.152:58169?encryption=none&type=ws&security=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://9e9ce149-8cee-4c4d-bafa-a3e1fa5e03fc@158.160.218.153:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
 vless://9690846c-6a93-4f42-810c-4c48b8a54021@158.160.218.153:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
+vless://f5ea8794-9cbe-411c-a45e-69395ed40b70@158.160.218.153:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
 vless://c80ca406-d9af-4807-b01a-b21dfb60f2ba@158.160.218.153:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
+vless://797bde01-870b-453c-a873-3ab6cd75a626@158.160.218.153:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
+vless://19ef3d02-1c55-4fec-9794-6def8cbac396@51.250.69.30:443?security=reality&encryption=none&flow=xtls-rprx-vision&type=tcp&fp=random&pbk=nsWn6DyAmrEeBhKDGIVW6CeCrbOennyKdL0TiH0EaSE&sni=any.yandex.ru&sid=8c1f5e30#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D%20YA
+vless://c911018e-3cb0-485f-88d8-d72e2d90506a@2.utube.mambo-jambo.ru:58169?encryption=none&packetEncoding=xudp&security=none&type=ws#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
