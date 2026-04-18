@@ -1,9 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://0f523b74-bbec-4998-be7d-4e7fb5f4d6fc@91.243.82.234:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=st.vk.com&pbk=Wt10I4MYfQ7UDOAaohWJqX8fp4KDfKA_cQNxNLtHhGQ&sid=0b21a0552ca1&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://0f523b74-bbec-4998-be7d-4e7fb5f4d6fc@91.243.82.234:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=event.yandex.ru&pbk=Wt10I4MYfQ7UDOAaohWJqX8fp4KDfKA_cQNxNLtHhGQ&sid=27&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://0f523b74-bbec-4998-be7d-4e7fb5f4d6fc@91.243.82.234:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=kinopoisk.ru&pbk=Wt10I4MYfQ7UDOAaohWJqX8fp4KDfKA_cQNxNLtHhGQ&sid=119a6dde69d7&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://0f523b74-bbec-4998-be7d-4e7fb5f4d6fc@91.243.82.234:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=Wt10I4MYfQ7UDOAaohWJqX8fp4KDfKA_cQNxNLtHhGQ&sid=8d8ab88f16b1&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://f071fede-1d4b-408d-b2b6-2f0b7da8e822@84.201.147.14:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
 vless://e7d7809d-63e8-47e4-86af-6bef870edc44@84.201.147.14:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
+vless://3b7e7ab6-feb0-4c12-b575-b5b2b8e7b8e5@russ3.figurapn.ru:443?type=xhttp&security=reality&encryption=none&fp=chrome&pbk=i1kgdvvNoTAdTsmFcdFBItn1wakoTNZHC1F7nTCpLlo&sid=6f9ae5be33ead6f9&sni=russ3.figurapn.ru&path=/ws&mode=auto#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://f071fede-1d4b-408d-b2b6-2f0b7da8e822@84.201.147.14:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA&sid=111111#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
