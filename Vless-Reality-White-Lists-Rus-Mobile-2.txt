@@ -2,5 +2,5 @@
 # profile-update-interval: 1
 
 vless://321c91b8-0395-4dd5-a7d5-9df5adc5c32b@83.166.236.105:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=ru.botfight.fun&pbk=9rF-W8XmJlJL7WTN7-AsRfs-ZSr4EZNXQpcv82Gjcxs&sid=fb4a4359a6dd240c#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D%20VK
-vless://321c91b8-0395-4dd5-a7d5-9df5adc5c32b@ru.botfight.fun:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ru.botfight.fun&fp=random&security=reality&pbk=9rF-W8XmJlJL7WTN7-AsRfs-ZSr4EZNXQpcv82Gjcxs&sid=fb4a4359a6dd240c&packetEncoding=xudp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D%20VK
-vless://75807638-6f19-07d0-ae08-38492ee85c88@cluster-russia-1.firstvideocdn.ru:52006?type=tcp&security=tls&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://7d48132f-1b7b-4d89-af6e-0ea9a229e0f4@ru-4.maxg.ch:443?security=reality&type=tcp&headerType=&path=&host=&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=&pbk=QlQDX8jxqNJE1qtZmaZCDxE7gZqcLlOKdWd5YKNv0Gg&sid=555b9b33d083d3f1&spx=%2Fcdn-cgi%2Ftrace#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@cluster-russia-1.firstvideocdn.ru:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
