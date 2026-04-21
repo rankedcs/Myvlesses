@@ -1,13 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://75807638-6f19-07d0-ae08-38492ee85c88@82.202.249.3:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=cluster-russia-1.firstvideocdn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://75807638-6f19-07d0-ae08-38492ee85c88@82.202.197.3:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=cluster-russia-1.firstvideocdn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@82.202.249.3:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=cluster-russia-1.firstvideocdn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://75807638-6f19-07d0-ae08-38492ee85c88@5.178.87.140:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=cluster-russia-1.firstvideocdn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@5.188.158.225:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=cluster-russia-1.firstvideocdn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.42:52006?allowInsecure=1&insecure=1&type=tcp&security=tls&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.42:52006?type=tcp&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://TMG_e25feb28e2a@94.103.2.194:443?echfq=none&fp=chrome&type=xhttp&sni=business.max.ru&sid=18ec&mode=auto&path=%2FD0Pq4fZn6obwQj&security=reality&encryption=none&pbk=CxSsLf7XPhNjhqp0QBOI699kkudkiJCoCVfqqXSllyU&host=business.max.ru&spx=%2F&allowinsecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@cluster-russia-1.firstvideocdn.ru:52006?type=tcp&security=tls&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://eaf77ff9-a33a-456d-8bdf-6bea4f9582f0@ru.datanode-internal.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sun9-38.userapi.com&fp=qq&pbk=r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic&sid=abbcd128&packetEncoding=xudp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@cluster-russia-1.firstvideocdn.ru:52006?security=tls&type=tcp&sni=cluster-russia-1.firstvideocdn.ru&fp=chrome&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.42:52006?allowInsecure=1&insecure=1&type=tcp&security=tls&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@5.188.158.225:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=cluster-russia-1.firstvideocdn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://0d7fc7f4-122e-4576-b4cc-c965bd7af243@31.130.135.224:8443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://0d7fc7f4-122e-4576-b4cc-c965bd7af243@5.42.123.98:8443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://37bcd084-a17c-44da-9868-ad5c4632cf8c@147.45.99.236:4342?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://37bcd084-a17c-44da-9868-ad5c4632cf8c@89.169.1.246:4383?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=files.moscownews24.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
