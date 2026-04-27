@@ -1,13 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://36d85d65-1b57-4cba-a2a6-f61131b08593@80.93.187.89:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=Ufkz__Q3m_d8NFR08OVtXx3hLaV4-x7UesrVKduEIn0&sid=&sni=srv80.towersflowerss.com#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.41:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@80.93.187.210:52006?allowInsecure=1&insecure=1&type=tcp&security=tls&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@95.213.184.3:52006?security=tls&encryption=none&insecure=1&headerType=&fp=chrome&type=tcp&allowInsecure=1&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://bcb1d557-85e4-4dc2-b051-3dfb0defea0a@147.45.44.126:8443?encryption=none&fp=chrome&pbk=G_RqCTuul0T90d2vSlUqtrm1mZnfN1kKq5h22TLEzko&security=reality&sid=dd98aa&sni=m.vk.com&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@87.228.124.196:4443?encryption=none&type=tcp&security=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@80.93.187.210:52006?type=tcp&headerType=none&security=tls&encryption=none&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://a6f85c9b-169b-4a1e-b051-2011bcfa2c23@31.192.111.158:24207?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=web.max.ru&pbk=V8s9nXxrXloDwOOGNdceeMJAvggTjWG-Ax9R9Y0muEk&sid=69&spx=%2FlF5w2H20UTEWGcy#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://1ad02168-e517-450b-9613-67f82ebb6239@89.169.131.213:8443?encryption=none&fp=chrome&mode=packet-up&path=%2Fstaging&pbk=aQmnm5f3EpfYsnO74y1auQeRaX3MeyLl_EcIdVijoTk&security=reality&sid=8ec06ed089e89937&sni=www.microsoft.com&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
 vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@5.188.156.138:4443?encryption=none&type=tcp&security=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@87.228.124.196:4443?encryption=none&type=tcp&security=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@188.246.226.14:52006?security=tls&encryption=none&insecure=1&headerType=&fp=chrome&type=tcp&allowInsecure=1&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@95.213.184.3:52006?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.41:52006?allowInsecure=1&insecure=1&type=tcp&security=tls&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.41:52006?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://b61bf605-147f-429f-b10b-297e5e5fd02d@185.147.27.96:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=F8-vs46mNbq9-5gAP08KD420Jf1tdHwcefIDTFpEMSs&sid=30095c0f0d#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://10d57bcd-9d4c-4eba-aec2-7d6ccada0ae3@94.156.181.59:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=rutube.ru&pbk=hGWT9NEhLEENTKhDQqxeXSopWnAcbrFM0-4Xg0Gb_X8&sid=43d0526d32d7a3b0&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://408c57ff-f67f-49c7-856a-56bff6ac26e0@5.188.224.135:2083?encryption=none&type=grpc&security=reality&mode=gun&serviceName=UpdateService&fp=chrome&sni=ir.ozone.ru&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&sid=6da16b1335651b38#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
