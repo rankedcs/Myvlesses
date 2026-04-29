@@ -1,13 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.41:52006?encryption=none&flow=xtls-rprx-vision&security=tls&insecure=1&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@188.246.226.14:52006?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75356919-6ece-455c-ba7a-9f042a60d2c5@st.xbs54as9c6.ru:7000?type=ws&security=false&path=/stream&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://8e66502a-83ca-47d7-a3b5-a65daf457ecf@80.93.187.200:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=findmypackets.com&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&sid=d1579a8745398e34#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://92f76e6f-5489-40cd-a157-4b1f3f80546d@5.188.156.245:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://291364ee-d321-473f-9e14-7581bb7ffee4@77.232.136.114:4443?security=reality&encryption=none&flow=xtls-rprx-vision&type=tcp&sni=www.avito.ru&fp=chrome&pbk=ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU&alpn=http%2F1.1&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
 vless://75356919-6ece-455c-ba7a-9f042a60d2c5@178.72.186.76:443?encryption=none&type=ws&security=none&path=%2Fstream#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://d1a4406a-30d8-4365-9bc7-41457ddc7114@5.188.156.245:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75356919-6ece-455c-ba7a-9f042a60d2c5@178.72.186.76:7000?encryption=none&type=ws&security=none&path=%2Fstream#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@95.213.184.3:52006?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75356919-6ece-455c-ba7a-9f042a60d2c5@178.72.186.76:7000?host=&path=/stream&security=none&type=ws#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://960eb19c-3238-44f2-ae20-dfbba5f1f778@5.188.224.136:2083?type=grpc&security=reality&encryption=none&fp=chrome&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&sid=6da16b1335651b38&sni=ir.ozone.ru&mode=gun&serviceName=UpdateService#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://f6b71e78-e065-4cf8-9fbb-b9e25ff67eff@5.188.224.73:2083?type=tcp&security=reality&fp=chrome&pbk=J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ&sid=6da16b1335651b38&sni=ir.ozone.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75356919-6ece-455c-ba7a-9f042a60d2c5@178.72.186.76:7000?encryption=none&type=ws&security=none&path=%2Fstream&host=market.yandex.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.41:52006?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.41:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75356919-6ece-455c-ba7a-9f042a60d2c5@st.xbs54as9c6.ru:7000?encryption=none&fp=chrome&headerType=none&path=/stream&security=none&type=ws#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@188.246.226.14:52006?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@cl-ru-2.edgeflux.ru:52006?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
