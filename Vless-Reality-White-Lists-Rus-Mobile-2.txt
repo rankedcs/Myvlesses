@@ -1,13 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@87.228.124.196:4443?encryption=none&type=tcp&security=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@80.93.187.210:52006?allowInsecure=1&insecure=1&type=tcp&security=tls&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@212.41.8.216:52006?allowInsecure=1&insecure=1&type=tcp&security=tls&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://9267614b-238c-4c2f-9b82-c36384ba0342@5.188.156.245:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75356919-6ece-455c-ba7a-9f042a60d2c5@178.72.186.76:7000?host=&path=/stream&security=none&type=ws#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75356919-6ece-455c-ba7a-9f042a60d2c5@st.xbs54as9c6.ru:7000?type=ws&security=false&path=/stream&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://75807638-6f19-07d0-ae08-38492ee85c88@80.93.187.210:52006?type=tcp&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@212.41.8.216:52006?type=tcp&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.41:52006?allowInsecure=1&insecure=1&type=tcp&security=tls&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://8a11736f-7938-4cef-ab19-c27dcda23123@91.219.227.253:80?encryption=none&type=tcp&security=reality&fp=qq&sni=eh.vk.com&pbk=Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw&sid=7dbf7d3233971d5c#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
-vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@5.188.156.138:4443?encryption=none&type=tcp&security=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75356919-6ece-455c-ba7a-9f042a60d2c5@178.72.186.76:7000?encryption=none&type=ws&security=none&path=%2Fstream#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@188.246.226.14:52006?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@95.213.184.3:52006?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@212.41.28.109:4443?encryption=none&type=tcp&security=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://403e361f-8a2f-4518-9ef2-cd71088a6a46@5.188.156.245:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.41:52006?encryption=none&flow=xtls-rprx-vision&security=tls&insecure=1&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75356919-6ece-455c-ba7a-9f042a60d2c5@178.72.186.76:443?encryption=none&type=ws&security=none&path=%2Fstream#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75356919-6ece-455c-ba7a-9f042a60d2c5@178.72.186.76:7000?encryption=none&type=ws&security=none&path=%2Fstream&host=market.yandex.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
