@@ -1,13 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.182.9:52006?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=cl-oth-1.edgeflux.ru&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.182.20:52006?allowInsecure=1&type=tcp&security=tls&flow=xtls-rprx-vision&sni=cl-ru-1.edgeflux.ru&host=cl-ru-1.edgeflux.ru""#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.182.38:52006?allowInsecure=1&encryption=none&flow=xtls-rprx-vision&headerType=none&host=cl-ru-1.edgeflux.ru%22%2C&insecure=1&security=tls&sni=cl-ru-1.edgeflux.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.182.38:52006?type=tcp&headerType=none&security=tls&encryption=none&sni=cl-ru-1.edgeflux.ru&host=cl-ru-1.edgeflux.ru%5C%22%2C%22%2C&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.162.160:52006?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cluster-other-1.firstvideocdn.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.182.9:52006?type=tcp&security=tls&flow=xtls-rprx-vision&sni=cl-oth-1.edgeflux.ru&allowInsecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.182.9:52006?type=tcp&security=tls&flow=xtls-rprx-vision&sni=cl-oth-1.edgeflux.ru&host=cl-oth-1.edgeflux.ru,&allowInsecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.182.38:52006?allowInsecure=1&encryption=none&flow=xtls-rprx-vision&security=tls&sni=cl-ru-1.edgeflux.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.182.38:52006?allowInsecure=1&type=tcp&security=tls&flow=xtls-rprx-vision&sni=cl-ru-1.edgeflux.ru&host=cl-ru-1.edgeflux.ru%22%2C%22%2C",#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-0898-ae08-38492ee85c88@178.72.162.160:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&sni=cluster-other-1.firstvideocdn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-0898-ae08-38492ee85c88@178.72.162.160:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=cluster-other-1.firstvideocdn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.182.9:52006?type=tcp&headerType=none&security=tls&encryption=none&sni=cl-oth-1.edgeflux.ru&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.182.9:52006?type=tcp&headerType=none&security=tls&encryption=none&sni=cl-oth-1.edgeflux.ru&host=cl-oth-1.edgeflux.ru&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.181.40:52006?allowInsecure=1&encryption=none&flow=xtls-rprx-vision&security=tls&sni=cluster-russia-3.firstvideocdn.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.162.160:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&sni=cluster-other-1.firstvideocdn.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-0190-ae08-38492ee85c88@178.72.182.9:52006?type=tcp&security=tls&flow=xtls-rprx-vision&sni=cl-oth-1.edgeflux.ru&host=cl-oth-1.edgeflux.ru&allowInsecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.182.20:52006?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cl-ru-1.edgeflux.ru&insecure=1&allowInsecure=1&type=tcp&headerType=none",%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.182.20:52006?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cl-ru-1.edgeflux.ru&insecure=1&allowInsecure=1&type=tcp&headerType=none&host=cl-ru-1.edgeflux.ru%22%2C#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://75807638-6f19-07d0-ae08-38492ee85c88@178.72.182.20:52006?type=tcp&headerType=none&security=tls&encryption=none&sni=cl-ru-1.edgeflux.ru&host=cl-ru-1.edgeflux.ru&flow=xtls-rprx-vision&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
