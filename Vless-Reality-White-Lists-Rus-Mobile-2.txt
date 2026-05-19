@@ -1,9 +1,4 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://ba1581d2-d399-41e0-857b-82151ac0e040@188.225.44.194:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=9vV8MOvj1UAEXRcvy7BOFCeYSlsC9RJtNBm7Oun0tic&security=reality&sid=0277c306ebdaa58f&sni=hello.opengate.tech&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://8ebe6a0e-e8a8-4e3a-b393-d3d8e2d85121@81.94.148.168:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=x5.ru&pbk=b9uDzZP2udvoExtbm7nwraBaAbg0QowtY-ALDNZ__xg&sid=f4e2b8971d5c3a9f#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20CDN
-vless://9e1d737e-f3c1-4757-84b2-3dcf66a468ed@158.160.246.28:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=NaONDf0qCoNVteBefVS25yLJbMMLdnKnwsu7_il9MXE&sni=ads.x5.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://5c3231a7-396d-4845-9e58-3d19eabada13@5.42.108.243:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=rruu.persik.host&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://8f445893-abe2-499a-a62d-cd3c4b2a3577@5.42.108.243:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=rruu.persik.host&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://9e1d737e-f3c1-4757-84b2-3dcf66a468ed@94.131.121.189:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=qS6DV_LiMuDvS6oS5VUMO41n6h3BNOy_Eg4YKXmyA2k&sni=ads.x5.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://e7abc032-29cc-46b2-bc8e-1a5ebd9dea70@srv185.towersflowerss.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=Ufkz__Q3m_d8NFR08OVtXx3hLaV4-x7UesrVKduEIn0&sni=srv185.towersflowerss.com#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
