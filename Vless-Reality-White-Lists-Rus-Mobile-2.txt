@@ -1,4 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://41990152-3b7f-40a2-b692-49148d7053a5@158.160.156.172:5988?security=reality&encryption=none&pbk=FQrOWrsi6jfp5YX7QDdXUigTUgq0HOuDKM78Cp6P50g&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=surfvpn24.ru&sid=c19de8fa#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://41990152-3b7f-40a2-b692-49148d7053a5@158.160.156.172:5967?encryption=none&type=xhttp&security=reality&path=/bridge-xhttp&mode=stream-up&extra=null&fp=chrome&sni=surfvpn24.ru&pbk=FQrOWrsi6jfp5YX7QDdXUigTUgq0HOuDKM78Cp6P50g&sid=c19de8fa#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
 vless://69a2af58-d74a-44ca-864a-e09b493f4274@45.151.182.34:443?type=tcp&security=reality&pbk=WMy1KN-awWYkz-3jct8VM4qvCeK3ICvJj3wzam6pAyE&fp=chrome&sni=pimg.mycdn.me&sid=b8f9f01b#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
