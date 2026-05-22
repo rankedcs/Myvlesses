@@ -2,4 +2,3 @@
 # profile-update-interval: 1
 
 vless://69a2af58-d74a-44ca-864a-e09b493f4274@45.151.182.34:443?type=tcp&security=reality&pbk=WMy1KN-awWYkz-3jct8VM4qvCeK3ICvJj3wzam6pAyE&fp=chrome&sni=pimg.mycdn.me&sid=b8f9f01b#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://3a6b8815-482a-473d-be27-122fb997fc9d@193.168.46.180:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=rruu.persik.host&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
