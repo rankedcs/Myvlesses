@@ -1,13 +1,4 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://c56bb902-c4df-Fade-8e05-01d325ef4851@81.163.22.114:443?encryption=none&type=grpc&security=reality&mode=multi&fp=qq&sni=ads.x5.ru&pbk=o6jbbDkNF_5v8BlkIDl4NKhBiXTxCGms-NPmFkuQNXA#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://10e82fcc-94ec-4d09-8855-579bb55b77e4@77.110.113.236:8443?type=tcp&headerType=none&security=reality&encryption=none&sni=www.google.com&fp=chrome&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://9e1d737e-f3c1-4757-84b2-3dcf66a468ed@158.160.246.28:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=NaONDf0qCoNVteBefVS25yLJbMMLdnKnwsu7_il9MXE#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://c56bb902-c4df-Fade-8e05-01d325ef4851@81.163.22.114:443?encryption=none&type=grpc&security=reality&mode=gun&fp=qq&sni=ads.x5.ru&pbk=o6jbbDkNF_5v8BlkIDl4NKhBiXTxCGms-NPmFkuQNXA#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://e4b8b8f4-d29a-4962-b261-c9e4fa7cae42@62.152.56.211:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=wl-12.nodes.ac&pbk=lh3qj3VX335HGH2T3xQ8RHZ4v3zEStbz6ENiPwkILSg&sid=cf43c0c197cd464a#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://c56bb902-c4df-Fade-8e05-01d325ef4851@81.163.22.114:443/?type=grpc&mode=multi&serviceName=&security=reality&fp=qq&sni=ads.x5.ru&pbk=o6jbbDkNF_5v8BlkIDl4NKhBiXTxCGms-NPmFkuQNXA#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://05af36dd-db51-42e6-8bf6-15a013ee0eb3@109.120.189.31:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=id.vk.ru&pbk=Cb6Fi86wbJ_7yMjvI1axXNek55YpyDje9HbMgIoimR8#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
-vless://41990152-3b7f-40a2-b692-49148d7053a5@158.160.156.172:5988?security=reality&encryption=none&pbk=FQrOWrsi6jfp5YX7QDdXUigTUgq0HOuDKM78Cp6P50g&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=surfvpn24.ru&sid=c19de8fa#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://a4b72429-be58-468f-8798-496544c538e9@84.201.184.250:20982?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=krJtMOt6Bg8I7jv69sEkyHjDClI936SI5UMTJgAZaz4&sid=5a#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://41990152-3b7f-40a2-b692-49148d7053a5@158.160.156.172:5967?encryption=none&type=xhttp&security=reality&path=/bridge-xhttp&mode=stream-up&extra=null&fp=chrome&sni=surfvpn24.ru&pbk=FQrOWrsi6jfp5YX7QDdXUigTUgq0HOuDKM78Cp6P50g&sid=c19de8fa#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://69a2af58-d74a-44ca-864a-e09b493f4274@45.151.182.34:443?type=tcp&security=reality&pbk=WMy1KN-awWYkz-3jct8VM4qvCeK3ICvJj3wzam6pAyE&fp=chrome&sni=pimg.mycdn.me&sid=b8f9f01b#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
