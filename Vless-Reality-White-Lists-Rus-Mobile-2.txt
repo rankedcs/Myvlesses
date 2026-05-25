@@ -1,13 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://791f388e-4b6c-4ace-a7da-648f1057a883@188.225.76.23:443?fp=chrome&pbk=wmMvp_Y8U-o61VgJS1lyNBhFzPnrESvy0uWm_yk1WTM&security=reality&sid=b99f&sni=yahoo.com&spx=%2F&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://31293d63-8a6b-4f3e-92a0-530facbb912c@84.201.138.207:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=super.bestcats-video.online&pbk=HFgjr7QesxPzYbsNHIIgFMKGAivqfEZmp91EW_yDciM#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
 vless://de87620b-6bff-4077-99cc-ce65e06b64ed@5.188.156.138:4443?encryption=none&type=tcp&security=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://bda109ea-efab-44d2-9fa4-25acecd448a1@185.147.27.36:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=A1KLk_6e6jCWZDDWuuzojzSPxQELc2jqK1hHU3ooG34&security=reality&sid=874db238&sni=vk.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://10cc246c-9c02-45b0-91ec-77f18084f0f9@84.201.129.56:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=uYdYVZk9icFIvfd8eKHYHiULohrTdIHl2J8ktn7uTUU&sid=9db07670a7b491cb#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
+vless://de87620b-6bff-4077-99cc-ce65e06b64ed@87.228.124.196:4443?encryption=none&type=tcp&security=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://20ecee51-1044-4be3-89a9-f3c700425ead@45.67.230.230:443?encryption=none&fp=&pbk=qYg2nPdLpBYWM7-9leTq43SoqAc5nT90gFH-AHAMShY&security=reality&sid=abb1&sni=yahoo.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://20ecee51-1044-4be3-89a9-f3c700425ead@45.67.230.230:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=yahoo.com&pbk=qYg2nPdLpBYWM7-9leTq43SoqAc5nT90gFH-AHAMShY&sid=abb1&spx=/#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://ce04b97a-4af4-42d3-88f1-1e0c06f5af94@45.144.31.17:443?type=tcp&security=reality&fp=chrome&pbk=BHSKXxqNXFKK80Bye84MkkPzLzeSSUDAJ2Rgk5mRXVg&sid=ca77&sni=yahoo.com#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://de87620b-6bff-4077-99cc-ce65e06b64ed@185.175.47.238:4443?type=tcp&allowInsecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://b477eacd-c7c0-41d6-bd06-1c13eb0d5dfc@45.144.31.230:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=yahoo.com&pbk=s_g7UdxIZvO5ZYsDqGLoZ7Pj1JQvrpHGvP7kGWIWcT8&sid=8c08&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://5085b3dd-d1fd-49a1-9fad-192fd276ad5c@84.201.139.67:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=uYdYVZk9icFIvfd8eKHYHiULohrTdIHl2J8ktn7uTUU&sid=9db07670a7b491cb#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
+vless://106c376f-431d-4ea0-bc61-f82308fefb4e@2.56.178.206:80?mode=auto&path=/&security=tls&sni=obhod.riotvpn.eu&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://106c376f-431d-4ea0-bc61-f82308fefb4e@2.56.178.206:443?flow=xtls-rprx-vision&fp=chrome&pbk=8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho&security=reality&sid=2f49bccf11150ef2&sni=ads.x5.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://791f388e-4b6c-4ace-a7da-648f1057a883@188.225.76.23:443?fp=chrome&pbk=wmMvp_Y8U-o61VgJS1lyNBhFzPnrESvy0uWm_yk1WTM&security=reality&sid=b99f&sni=yahoo.com&spx=%2F&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://de87620b-6bff-4077-99cc-ce65e06b64ed@217.198.5.100:4443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ru-service1.frostmotiveseed.net&pbk=qPKhbzQs8OPMxucE8GYjA_icKCDi9COYnqEf-M4p914#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://7625adbb-52f7-4ff4-95f8-677471071a77@5.129.245.184:8443?flow=xtls-rprx-vision&fp=chrome&pbk=A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM&security=reality&sid=92d0c4089b6c1da3&sni=io.ozone.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
