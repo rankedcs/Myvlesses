@@ -1,5 +1,5 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://bd6acaa8-4579-3d31-9bcb-0dae59f756e9@178.154.243.251:443?encryption=none&type=tcp&security=reality&fp=random&sni=www.google.com&pbk=JkiFzvTq6FFDb44V8ifby6-P7QZo7Z1B5VOrGTgAQEY&sid=a1e1a7#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://232627e4-1bec-41cc-8f91-6dd9235df1ce@ru.c2horizon.app:443/?type=tcp&encryption=none&flow=#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://b6083a84-80a5-3e88-9dbb-5c8ef241be3a@158.160.250.45:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=mDtiIWLFPJoPVrDLOCvKn6lvlS8r0TdRO9MxmmdIDmo&sid=917fd5a45e8840#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://b7c919a8-888d-4522-a33f-e07e9af91d52@158.160.154.15:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ads.x5.ru&fp=chrome&pbk=Py03aPnCma9Ip4xCvtBsK77NScUYphSw46RmdjFSvls&sid=a374f536afccddfe&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
