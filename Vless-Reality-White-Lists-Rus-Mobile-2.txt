@@ -1,3 +1,4 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://b6083a84-80a5-3e88-9dbb-5c8ef241be3a@51.250.113.157:443?type=tcp&security=reality&fp=random&pbk=65nqcY-jE1J_G27W-X_qGCSpXMEHif6MBLXN8kBoFB0&sid=1f18adc24d1d&sni=www.google.com#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
