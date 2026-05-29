@@ -1,6 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://81bc17b1-f73d-419c-a50b-9e2a4d255dfb@185.91.52.126:6443?encryption=none&type=grpc&security=reality&mode=gun&fp=chrome&sni=5post-gate.x5.ru&pbk=G4vvT8e4oYVIZZ6G09Kt3tJtp0qNVex3gXiHz4wmuzc&sid=a145eec6d5130e#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://b43c896e-d9b8-4606-b902-b1bf6d10d2f9@85.198.85.193:40470?fp=chrome&pbk=kn16KgkUCMVfqSIwKI9fd0yDy6VcavlTt56LqE_7JWI&security=reality&sid=1fad87&sni=5post-gate.x5.ru&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://81bc17b1-f73d-419c-a50b-9e2a4d255dfb@5.188.114.12:8443?encryption=none&type=grpc&security=reality&mode=gun&fp=chrome&sni=5post-gate.x5.ru&pbk=kYBv0pzwgjZYoymSlSGPFxgoLgs92uXYUGZfZ2wwnnI&sid=dc93f297474b860f#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://c183182e-01ed-4905-a8b7-ed44c5cb82b8@217.16.23.28:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
+vless://c183182e-01ed-4905-a8b7-ed44c5cb82b8@217.16.22.172:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20VK
