@@ -1,6 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://f9d00176-5970-45a2-98b6-45de641fe979@81.163.22.242:443?flow=xtls-rprx-vision&fp=edge&headertype=&pbk=04ldY404vmp-rpwOyK6wNxwFvWOdhxce_gIcHt5T2A4&security=reality&sid=de91bc568dad8f58&sni=cdn2.s3-rus.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://a1b19834-a5e3-4d49-9301-aaa3fb248f49@185.14.46.20:443?encryption=none&type=grpc&security=tls&mode=gun&serviceName=%2Fsequre%2Fgrpc&authority=grpc.vhub.pro&fp=chrome&sni=185.14.46.20.blanesik.space&alpn=h2#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://a1b19834-a5e3-4d49-9301-aaa3fb248f49@185.14.46.20:443?encryption=none&type=grpc&security=tls&mode=gun&serviceName=%2Fsequre%2Fgrpc&fp=chrome&sni=185.14.46.20.blanesik.space#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://a1b19834-a5e3-4d49-9301-aaa3fb248f49@185.14.46.20.blanesik.space:443?type=grpc&headerType=none&security=tls&encryption=none&sni=185.14.46.20.blanesik.space&fp=chrome&alpn=h2&serviceName=%2Fsequre%2Fgrpc&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://33612cbf-0639-4285-81da-f88eba1d4f85@bankir.ksnodes.net:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=bankir.ksnodes.net&insecure=0&allowInsecure=0&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
