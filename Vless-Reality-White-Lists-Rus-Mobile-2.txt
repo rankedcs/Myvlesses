@@ -1,9 +1,4 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://33612cbf-0639-4285-81da-f88eba1d4f85@85.208.86.24:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=bankir.ksnodes.net#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://33612cbf-0639-4285-81da-f88eba1d4f85@5.42.113.229:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&sni=cloud.cdnru.net#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://33612cbf-0639-4285-81da-f88eba1d4f85@cloud.cdnru.net:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=tls&encryption=none&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://6e84b643-1c90-41e7-9028-ce4dea28c21c@pro-ru-84.emrata.top:443?type=tcp&security=reality&sni=ads.x5.ru&fp=firefox&flow=xtls-rprx-vision&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://33612cbf-0639-4285-81da-f88eba1d4f85@bankir.ksnodes.net:443?type=tcp&headerType=none&security=tls&encryption=none&sni=bankir.ksnodes.net&flow=xtls-rprx-vision&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://33612cbf-0639-4285-81da-f88eba1d4f85@cloud.cdnru.net:443?security=tls&type=tcp&sni=cloud.cdnru.net&fp=chrome&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://ed98e66d-5dbe-4b6d-9032-250e61eaf53f@nider01.lumixvpn.org:443?type=tcp&headerType=none&security=reality&encryption=none&sni=nider01.lumixvpn.org&fp=qq&pbk=IQ3026lP53IQEqYiIqQXhyImHFt9VbPRDGOcFDTVmD4&sid=ac956cdfcdbc35af&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
