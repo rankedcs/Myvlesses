@@ -1,4 +1,3 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://ed98e66d-5dbe-4b6d-9032-250e61eaf53f@nider01.lumixvpn.org:443?type=tcp&headerType=none&security=reality&encryption=none&sni=nider01.lumixvpn.org&fp=qq&pbk=IQ3026lP53IQEqYiIqQXhyImHFt9VbPRDGOcFDTVmD4&sid=ac956cdfcdbc35af&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
