@@ -1,9 +1,4 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://346af57f-316c-4246-839d-6e363b1dbdf9@82.202.137.132:443?encryption=none&type=xhttp&security=reality&host=vk.com&path=%2F&mode=auto&extra=null&fp=chrome&sni=yandex.ru&pbk=SQo6HHEMN-eGaCOdmN0_CX9F3cbCje4gVwuCrKh1MFU&sid=de#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://346af57f-316c-4246-839d-6e363b1dbdf9@82.202.137.132:443?encryption=none&type=xhttp&security=reality&extra=null&fp=chrome&sni=yandex.ru&pbk=SQo6HHEMN-eGaCOdmN0_CX9F3cbCje4gVwuCrKh1MFU&sid=de#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://7d876627-abf5-4865-8ff4-03f37d49de5d@pro.herumhas.shop:5443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=max.ru&fp=chrome&pbk=LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
-vless://346af57f-316c-4246-839d-6e363b1dbdf9@v6.cloudconsole.ru:443?type=xhttp&security=reality&path=/&sni=yandex.ru&fp=chrome&pbk=SQo6HHEMN-eGaCOdmN0_CX9F3cbCje4gVwuCrKh1MFU&sid=de#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://346af57f-316c-4246-839d-6e363b1dbdf9@v6.cloudconsole.ru:443?mode=auto&path=/&security=reality&encryption=none&pbk=SQo6HHEMN-eGaCOdmN0_CX9F3cbCje4gVwuCrKh1MFU&host=vk.com&fp=chrome&spx=/&allowinsecure=0&type=xhttp&sni=yandex.ru&sid=de#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://806c37e7-1865-47df-bf94-92345f67d83a@srv-2f2951.21freedom.net:443?type=xhttp&security=reality&path=/api/v1/35f40c80&sni=yandex.ru&fp=chrome&pbk=LiPjJnS3V2C-W1lbsslZERqXYn8b104bW7PetDA08XA&sid=c897d075c4775e4c#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://00b28761-1464-496d-a6fa-b59eba67b810@5.188.114.71:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdn1.s3-rus.ru&fp=edge&pbk=04ldY404vmp-rpwOyK6wNxwFvWOdhxce_gIcHt5T2A4&sid=de91bc568dad8f58&spx=%2F&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
