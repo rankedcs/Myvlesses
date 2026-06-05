@@ -1,6 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://17451fec-af94-4715-8c2f-7f6839130d0a@85.193.87.63:2040?encryption=none&type=tcp&security=reality&fp=chrome&sni=tradingview.com&pbk=LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0&sid=53197c66aef53c44#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://db95b766-43a8-001f-9b5d-5ca6f2735188@ru02.goodmaximum.com:443?encryption=none&type=tcp&security=reality&headerType=none&sni=ru-cloud.221131513.xyz&fp=chrome&allowInsecure=1&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=77778028b56c8704#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
+vless://db95b766-43a8-001e-9b5d-5ca6f2735188@ru01.goodmaximum.com:443?encryption=none&type=tcp&security=reality&headerType=none&sni=ru-cloud.221131513.xyz&fp=chrome&allowInsecure=1&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=31181028b56c8704#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
+vless://73d75a84-7c29-0024-92ca-cc2fd46c254c@ru01.goodmaximum.com:443?type=tcp&security=reality&sni=ru-cloud.221131513.xyz&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=31181028b56c8704&fp=chrome&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
 vless://73d75a84-7c29-001e-92ca-cc2fd46c254c@ru01.goodmaximum.com:443?type=tcp&security=reality&sni=ru-cloud.221131513.xyz&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=31181028b56c8704&fp=chrome&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
