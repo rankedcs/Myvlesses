@@ -2,3 +2,4 @@
 # profile-update-interval: 1
 
 vless://6535bd8d-1958-4a33-beeb-2184e31289ae@185.154.192.42:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ru.bubibubibu.com&pbk=RK0ddk0SXfK_xi2NlztjcpzXoUbActqlwr637jDWK2c&sid=3f9cc886565a08c9#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://6535bd8d-1958-4a33-beeb-2184e31289ae@ru.bubibubibu.com:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ru.bubibubibu.com&fp=qq&pbk=RK0ddk0SXfK_xi2NlztjcpzXoUbActqlwr637jDWK2c&sid=3f9cc886565a08c9&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
