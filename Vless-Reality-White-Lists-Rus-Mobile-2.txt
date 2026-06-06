@@ -1,5 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://6535bd8d-1958-4a33-beeb-2184e31289ae@185.154.192.42:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ru.bubibubibu.com&pbk=RK0ddk0SXfK_xi2NlztjcpzXoUbActqlwr637jDWK2c&sid=3f9cc886565a08c9#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://6535bd8d-1958-4a33-beeb-2184e31289ae@ru.bubibubibu.com:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ru.bubibubibu.com&fp=qq&pbk=RK0ddk0SXfK_xi2NlztjcpzXoUbActqlwr637jDWK2c&sid=3f9cc886565a08c9&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://cc13e71e-aaf0-47c7-b565-391856749987@193.233.216.70:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=random&pbk=wDW0XXr39U-W7fPtsy_qcR39hjIGVNUVFTCVURNdbwM&sid=d8f3a9c2&sni=metrika.yandex.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@l12.l-itx.info:7443?type=grpc&security=reality&fp=firefox&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sni=colorlib.com&mode=gun&serviceName=xyz#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@l12.l-itx.info:2053?type=ws&headerType=none&security=tls&encryption=none&sni=554dad6ab34f7baf.itx-server.digital&fp=firefox&path=%2Fws&host=itx-server.digital&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
