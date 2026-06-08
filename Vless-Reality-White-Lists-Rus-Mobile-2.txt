@@ -1,6 +1,5 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://bd78d4ee-c068-4125-94ba-50814578dc41@45.12.114.81:80?encryption=none&type=xhttp&security=tls&extra=null&sni=obhod.riotvpn.eu#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://02b92210-c4b8-4052-974f-62874a3a34fa@ru.jykvpn.com:80?mode=gun&security=none&encryption=none&type=grpc&serviceName=vless#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://41da9cd0-b02c-427a-b74e-7e402c610ae4@ru.riotvpn.eu:80?mode=auto&path=/&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=obhod.riotvpn.eu#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://e0f64e0b-ecb7-43fa-803b-99b728e54128@91.222.237.43:443?flow=xtls-rprx-vision&fp=firefox&pbk=VfQv2SS_WclTga8Y8H0OCEMWLGKAHqK72nAUQyHN8js&security=reality&sid=9c2378562188c3cb&sni=ru.dendiboss.org&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://5dfd9acc-85fd-405b-8efe-b60f2b91744a@vk-most-gaming.harknmav.fun:443?echfq=none&flow=xtls-rprx-vision&fp=firefox&headertype=none&pbk=ZJcIRk3tkkvpe-n4Zzz7938AQG4FmBSzN9gwXcJ8mg4&security=reality&sid=4a752b0d4d15e0f7&sni=eh.vk.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
