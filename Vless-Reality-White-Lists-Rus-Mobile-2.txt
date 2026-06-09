@@ -1,5 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://9e5201b2-5061-413b-b310-36cc6ec590c6@46.229.215.189:8443?encryption=none&type=tcp&security=reality&headerType=none&sni=smartcaptcha.yandexcloud.net&fp=chrome&allowInsecure=1&pbk=92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://9e5201b2-5061-413b-b310-36cc6ec590c6@46.229.215.189:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=smartcaptcha.yandexcloud.net&fp=firefox&pbk=92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://87a61ee1-f6eb-48b4-ac90-c255ce067a07@91.222.237.43:443?flow=xtls-rprx-vision&fp=firefox&pbk=VfQv2SS_WclTga8Y8H0OCEMWLGKAHqK72nAUQyHN8js&security=reality&sid=9c2378562188c3cb&sni=ru.dendiboss.org&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://a6bd2cf2-cb83-4ac3-82a3-350cc9d0d469@5.188.140.160:5443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
+vless://a6bd2cf2-cb83-4ac3-82a3-350cc9d0d469@217.herumhas.shop:5443?type=tcp&headerType=none&security=reality&encryption=none&sni=max.ru&fp=chrome&pbk=LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
