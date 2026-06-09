@@ -2,4 +2,3 @@
 # profile-update-interval: 1
 
 vless://9e5201b2-5061-413b-b310-36cc6ec590c6@46.229.215.189:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=smartcaptcha.yandexcloud.net&fp=firefox&pbk=92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://8cd00214-09da-48d9-8004-8281ff918d36@ru-selectel-01.com:8443?encryption=none&sni=sni.ru-selectel-01.com&security=reality&pbk=rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI&sid=1c74cf626ef50bb3&flow=xtls-rprx-vision&fp=chrome&packetEncoding=xudp&udp=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
