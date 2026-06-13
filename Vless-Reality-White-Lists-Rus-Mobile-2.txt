@@ -1,9 +1,9 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://47ab09c5-b2cc-441f-b5e5-6782b722d3ee@85.239.40.249:443?encryption=none&fp=chrome&mode=auto&pbk=dzpKdY2nJ5SDkizuORY2BQ0pvOd5TWwUkyjou4pFhAI&security=reality&sid=3b591a1227f69e03&sni=ru.locklance.lol&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://47ab09c5-b2cc-441f-b5e5-6782b722d3ee@85.239.40.249:443?fp=firefox&mode=auto&pbk=dzpKdY2nJ5SDkizuORY2BQ0pvOd5TWwUkyjou4pFhAI&security=reality&sid=3b591a1227f69e03&sni=ru.locklance.lol&spx=/&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://47ab09c5-b2cc-441f-b5e5-6782b722d3ee@85.239.40.249:443?fp=firefox&mode=auto&pbk=dzpKdY2nJ5SDkizuORY2BQ0pvOd5TWwUkyjou4pFhAI&security=reality&sid=5cdb398a7baa0765&sni=ru.locklance.lol&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://47ab09c5-b2cc-441f-b5e5-6782b722d3ee@85.239.40.249:443?fp=firefox&mode=auto&pbk=dzpKdY2nJ5SDkizuORY2BQ0pvOd5TWwUkyjou4pFhAI&security=reality&sid=4fccf1f98f04c7bb&sni=ru.locklance.lol&spx=%2F&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://47ab09c5-b2cc-441f-b5e5-6782b722d3ee@85.239.40.249:443?encryption=none&fp=chrome&mode=auto&pbk=dzpKdY2nJ5SDkizuORY2BQ0pvOd5TWwUkyjou4pFhAI&security=reality&sid=4fccf1f98f04c7bb&sni=ru.locklance.lol&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://47ab09c5-b2cc-441f-b5e5-6782b722d3ee@85.239.40.249:443?fp=firefox&mode=auto&pbk=dzpKdY2nJ5SDkizuORY2BQ0pvOd5TWwUkyjou4pFhAI&security=reality&sid=3b591a1227f69e03&sni=ru.locklance.lol&spx=/&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://47ab09c5-b2cc-441f-b5e5-6782b722d3ee@85.239.40.249:443?encryption=none&fp=chrome&mode=auto&pbk=dzpKdY2nJ5SDkizuORY2BQ0pvOd5TWwUkyjou4pFhAI&security=reality&sid=3b591a1227f69e03&sni=ru.locklance.lol&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://47ab09c5-b2cc-441f-b5e5-6782b722d3ee@ru.locklance.lol:443?type=xhttp&headerType=none&security=reality&encryption=none&sni=ru.locklance.lol&fp=chrome&pbk=dzpKdY2nJ5SDkizuORY2BQ0pvOd5TWwUkyjou4pFhAI&sid=5cdb398a7baa0765&spx=%2F&path=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
