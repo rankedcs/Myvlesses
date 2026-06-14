@@ -1,6 +1,9 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://3ef170be-05d0-479c-9753-aa2f860964ea@193.233.82.126:443?security=reality&encryption=none&pbk=C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=cloudflare.com&sid=a1b2c3d4e5f6#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://ff19693c-11f3-4df9-8713-79a85a5ca090@5.42.120.30:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sellflow.org&fp=firefox&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@157.22.241.100:443?type=xhttp&security=reality&fp=firefox&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sid=6ba85179e30d4fc3&sni=yandex.by&path=/xh&mode=stream-up&extra=null#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://73b716b5-b2fb-4b93-ac08-25c853b30f43@94.131.121.189:443?flow=xtls-rprx-vision&fp=chrome&headertype=none&pbk=qS6DV_LiMuDvS6oS5VUMO41n6h3BNOy_Eg4YKXmyA2k&security=reality&sni=ads.x5.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://ff19693c-11f3-4df9-8713-79a85a5ca090@217.149.25.165:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://ff19693c-11f3-4df9-8713-79a85a5ca090@5.42.120.30:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sellflow.org&fp=firefox&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://ff19693c-11f3-4df9-8713-79a85a5ca090@5.42.120.30:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://95876482-8ee4-47bc-a9ef-c59f2a5ccfdd@217.198.13.31:443?flow=xtls-rprx-vision&fp=firefox&pbk=efz4hwnlouHFI-ilC6r-Xn1bQ7L-GNY3TslVdNkhqBQ&security=reality&sid=71d7ea6e3a15ec70&sni=yt.prostoshield.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
