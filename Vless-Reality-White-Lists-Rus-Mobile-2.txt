@@ -2,5 +2,8 @@
 # profile-update-interval: 1
 
 vless://d98c856e-4aec-4d6c-ac66-fca0e474991d@95.213.184.91:2053?flow=xtls-rprx-vision&fp=firefox&pbk=RNp1xmSbUVYptBYjDXFM46fG9h999CZekqNhqoO-V1M&security=reality&sid=a408a64246f36565&sni=ru-t.vinnypuxtomoon.today&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://82dbc26e-2dcc-436a-84ee-f57d098209cd@84.201.189.8:9443?fp=firefox&pbk=O94s7biQ2O5Q66OI3jlT4megGOIqwLbRw81-6S5t4Q8&security=reality&serviceName=grpc&sid=a1b2c3d4&sni=cdp.x5.ru&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://82dbc26e-2dcc-436a-84ee-f57d098209cd@84.201.189.8:443?flow=xtls-rprx-vision&fp=firefox&pbk=O94s7biQ2O5Q66OI3jlT4megGOIqwLbRw81-6S5t4Q8&security=reality&sid=a1b2c3d4&sni=cdp.x5.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
 vless://82dbc26e-2dcc-436a-84ee-f57d098209cd@84.201.189.8:8443?fp=firefox&mode=auto&path=/xhttp&pbk=O94s7biQ2O5Q66OI3jlT4megGOIqwLbRw81-6S5t4Q8&security=reality&sid=a1b2c3d4&sni=cdp.x5.ru&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://1ad4bc6a-f707-4439-b20e-a99565650d45@51.250.101.253:443?flow=xtls-rprx-vision&fp=firefox&pbk=sJmcpB61sSWubzff0AFv-vhYDar0lymSajeyG0jYpVA&security=reality&sni=ads.x5.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://f68435e2-ac00-4374-8c03-c1d36e171088@45.10.246.231:1443?flow=xtls-rprx-vision&fp=firefox&pbk=Bz2Qu67JWaNRcOIbSvC8fes8Vg_RJZwwl272Leo-Sg0&security=reality&sid=0191f3e34348cb41&sni=musor.netotcluchai.top&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://6a152189-679e-4633-9222-781992c7bf7d@84.201.179.148:8443?flow=xtls-rprx-vision&fp=firefox&pbk=fSthdDnrlJEusfddcwvxRp7mOr8QgnmZgWiozX_4HQs&security=reality&sni=smartcaptcha.yandexcloud.net&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
