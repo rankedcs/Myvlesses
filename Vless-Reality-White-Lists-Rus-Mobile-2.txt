@@ -1,4 +1,3 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://b2a290df-fafc-4f69-a529-3900fe479ac1@217.26.29.198:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=dev.max.ru&fp=safari&pbk=r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI&sid=d0a1665d1b96515e#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
