@@ -1,6 +1,4 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://ed425746-3d10-4b45-a71d-11ff5c3a772f@213.171.31.29:443?type=grpc&security=reality&fp=chrome&pbk=I2aM-iYWKsWCPtzA_zRbq4AYiaZFDrDNo--xFI51Nlw&sid=7a842f6632c23114&sni=ru2.fastfive.ru&mode=gun&serviceName=clgoto#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://ed425746-3d10-4b45-a71d-11ff5c3a772f@213.171.31.29:443?type=grpc&security=reality&fp=firefox&pbk=I2aM-iYWKsWCPtzA_zRbq4AYiaZFDrDNo--xFI51Nlw&sid=7a842f6632c23114&sni=ru2.fastfive.ru&mode=gun&serviceName=clgoto#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://ed425746-3d10-4b45-a71d-11ff5c3a772f@ru2.fastfive.ru:443?type=grpc&security=reality&fp=chrome&pbk=I2aM-iYWKsWCPtzA_zRbq4AYiaZFDrDNo--xFI51Nlw&sid=7a842f6632c23114&sni=ru2.fastfive.ru&mode=gun&serviceName=clgoto#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://b2a290df-fafc-4f69-a529-3900fe479ac1@217.26.29.198:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=dev.max.ru&fp=safari&pbk=r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI&sid=d0a1665d1b96515e#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
