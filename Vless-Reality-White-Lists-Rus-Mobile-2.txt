@@ -2,4 +2,4 @@
 # profile-update-interval: 1
 
 vless://0bb3239a-1e0f-4f44-9957-09e70d536125@185.86.146.53:47000/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yandex.ru&fp=chrome&security=reality&pbk=8gvuFoZFiWq4Bqrote2sLeQDvjWKV-FbptzTLAYbsEI&sid=6148904a#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
-vless://448f6d1f-b658-4dea-a7c6-942f19022ac6@45.151.62.25:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=xyz&fp=chrome&sni=unpkg.com&pbk=ZrczdfyTT7tbeJ1FYwk6_RBKBkWvJURxYXU7Wn_aRWk&sid=c457b36dfffec3bb#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://448f6d1f-b658-4dea-a7c6-942f19022ac6@45.151.62.25:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=xyz&authority=fasti.fun&fp=chrome&sni=unpkg.com&pbk=ZrczdfyTT7tbeJ1FYwk6_RBKBkWvJURxYXU7Wn_aRWk&sid=c457b36dfffec3bb#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
