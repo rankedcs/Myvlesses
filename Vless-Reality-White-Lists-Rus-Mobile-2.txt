@@ -3,4 +3,4 @@
 
 vless://97d290a0-acec-4aae-b8cf-c7111a5a6397@46.16.36.26:9443?alpn=networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-&flow=xtls-rprx-vision&fp=firefox&pbk=im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4&security=reality&sni=io.ozone.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://97d290a0-acec-4aae-b8cf-c7111a5a6397@46.16.36.26:9443?type=tcp&headerType=none&security=reality&encryption=none&sni=io.ozone.ru&fp=firefox&pbk=im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://3283529b-3bc4-4e15-803a-7d5751a3df07@91.107.127.191:50052?fp=firefox&pbk=_C-DUSjLX_8EwHIMKczodo3Joqqg5iK-__8B104YCl4&security=reality&sid=f519aea63a602590&sni=rubr2.cheburnetnastalgia1998.com&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://d271e19d-800a-4a46-9fe5-924653b71a63@ru.jykvpn.com:80?mode=gun&security=&encryption=none&type=grpc&serviceName=vless&sni=ru.jykvpn.com#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
