@@ -2,5 +2,5 @@
 # profile-update-interval: 1
 
 vless://222ca353-a842-44f8-a86f-317fbbf73f2c@185.147.27.96:8443?flow=xtls-rprx-vision&fp=firefox&pbk=F8-vs46mNbq9-5gAP08KD420Jf1tdHwcefIDTFpEMSs&security=reality&sid=30095c0f0d&sni=max.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://60300afa-3366-4ae3-959a-7b50438acebb@tiger.ickly.co.uk:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tiger.ickly.co.uk&fp=edge&pbk=WRLY3yTNIqMcu-R0TwkAS4M9uMP8R1CnDVe_RvNvBWg&sid=46d7e37e&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://60300afa-3366-4ae3-959a-7b50438acebb@lte24.wequ.host:6443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=api-dev-omni.x5.ru&fp=qq&pbk=cOo6ONUU2yurrQgdFleebnVCySvkvWiJd59kEk09cwE&sid=55c9bce1&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://60300afa-3366-4ae3-959a-7b50438acebb@tiger.ickly.co.uk:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tiger.ickly.co.uk&fp=edge&pbk=WRLY3yTNIqMcu-R0TwkAS4M9uMP8R1CnDVe_RvNvBWg&sid=46d7e37e&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
