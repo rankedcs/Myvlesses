@@ -1,5 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://222ca353-a842-44f8-a86f-317fbbf73f2c@185.147.27.96:8443?flow=xtls-rprx-vision&fp=firefox&pbk=F8-vs46mNbq9-5gAP08KD420Jf1tdHwcefIDTFpEMSs&security=reality&sid=30095c0f0d&sni=max.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://222ca353-a842-44f8-a86f-317fbbf73f2c@109.73.195.191:8443?type=tcp&security=reality&sni=max.ru&fp=firefox&pbk=F8-vs46mNbq9-5gAP08KD420Jf1tdHwcefIDTFpEMSs&sid=30095c0f0d&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://60300afa-3366-4ae3-959a-7b50438acebb@46.8.210.108:6443?flow=xtls-rprx-vision&fp=firefox&pbk=cOo6ONUU2yurrQgdFleebnVCySvkvWiJd59kEk09cwE&security=reality&sid=55c9bce1&sni=api-dev-omni.x5.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://222ca353-a842-44f8-a86f-317fbbf73f2c@109.73.195.191:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=max.ru&pbk=F8-vs46mNbq9-5gAP08KD420Jf1tdHwcefIDTFpEMSs&sid=30095c0f0d#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://60300afa-3366-4ae3-959a-7b50438acebb@lte24.wequ.host:6443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=api-dev-omni.x5.ru&fp=qq&pbk=cOo6ONUU2yurrQgdFleebnVCySvkvWiJd59kEk09cwE&sid=55c9bce1&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
