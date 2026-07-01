@@ -1,4 +1,4 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://90ccad81-9d13-401e-ac8f-a8eff1d8b574@rus.ardor-cloud.ru:443?encryption=none&security=reality&sni=m.vk.com&fp=chrome&pbk=r1FAv6AXbkUfAqA7FkO4CxFaxnU8Db_le2vQJXRhllc&sid=84ba23f147dd7a35&type=grpc&authority=&serviceName=m.vk.com&mode=gun#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://2285c587-67f4-4404-bb78-c91e8e4f5338@95.163.209.42:443?flow=xtls-rprx-vision&fp=firefox&freeinternet=kizyak_vpn1782503602227&pbk=USzFIqCCFTRAzEJo8Npt_Ds-uRK_FnlvRsR-Iv88_AE&security=reality&sid=a1&sni=vk.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
