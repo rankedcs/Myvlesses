@@ -1,5 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://8966540f-485a-4b6b-a311-a4bd9701a9af@62.109.21.190:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://983f75ad-5f86-439b-bdf7-45a2e4704c59@cdn.yandex-api.it.com:443?type=tcp&security=none&encryption=none&sni=cdn.yandex-api.it.com#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://0991f7b3-a7a1-4850-9021-fa9d828b9ce6@62.109.21.190:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://1f28878e-9b23-4f40-95fe-d58ebb7b03c6@81.163.22.242:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&sni=cdn2.s3-rus.ru&fp=edge&pbk=04ldY404vmp-rpwOyK6wNxwFvWOdhxce_gIcHt5T2A4&sid=de91bc568dad8f58&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://d071ff06-dd26-40ef-9c02-52b5925028a2@62.109.21.190:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
