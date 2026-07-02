@@ -1,6 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://3e60d9a8-bcc1-4d20-8017-ecec84eab9f5@62.109.21.190:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://7c4977b0-e0f5-49a1-9998-349c9cbfa48f@62.109.21.190:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://2907f1a4-d55c-457e-934c-cfdb4132fe38@62.109.21.190:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://7c4977b0-e0f5-49a1-9998-349c9cbfa48f@62.109.21.190:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=jobinvest.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://47c2465f-e966-4930-b0a0-0ae7e53db7f3@185.229.9.229:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=api-maps.yandex.ru&fp=chrome&echfq=none&pbk=zMyJW8uYeZwurz4xCcnnPjYlCVP0nI5BDHp_0ZrxPjk&allowinsecure=0&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
