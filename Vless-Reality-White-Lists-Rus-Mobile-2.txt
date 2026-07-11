@@ -1,13 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://b7293535-2c4d-4797-aac0-94812cd0929b@51.250.0.174:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=chrome&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://f2fc6d40-505e-4622-aab6-100ae4a333e5@51.250.0.174:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=safari&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://935b4c83-6fab-469f-93ea-f7cae11d8a6e@5.129.243.64:443?flow=xtls-rprx-vision&fp=firefox&pbk=UkWs8ZVCrm_MxuzW9a8wKJC3IPjwBJcaz7Rb5czATyA&security=reality&sid=da122c35&sni=haharu7.xixihaha.it.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://1247930b-5ae2-44f7-bf29-5820d3392fcb@51.250.0.174:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://137136bb-2da0-4838-bfa4-15b2fb6e0963@109.237.98.122:443?security=&encryption=none&headerType=none&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://d4f7932c-0c5b-40aa-a41d-7fd4112cd4b0@51.250.0.174:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=qq&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://f2fc6d40-505e-4622-aab6-100ae4a333e5@51.250.0.174:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://f2fc6d40-505e-4622-aab6-100ae4a333e5@51.250.0.174:443?flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=5post-gate.x5.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
 vless://468d31fd-4d87-4a70-9295-8441798060cd@51.250.0.174:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
-vless://b7293535-2c4d-4797-aac0-94812cd0929b@51.250.0.174:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://f2fc6d40-505e-4622-aab6-100ae4a333e5@51.250.0.174:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=qq&sni=5post-gate.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://0e3ec08f-840e-46f8-b11e-3a5decbb97b6@89.208.230.241:5443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=safari&sni=max.ru&pbk=LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
 vless://137136bb-2da0-4838-bfa4-15b2fb6e0963@109.237.98.122:443?type=tcp&security=none&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://137136bb-2da0-4838-bfa4-15b2fb6e0963@109.237.98.122:443?type=tcp&security=none&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://935b4c83-6fab-469f-93ea-f7cae11d8a6e@5.129.243.64:443?flow=xtls-rprx-vision&fp=firefox&pbk=UkWs8ZVCrm_MxuzW9a8wKJC3IPjwBJcaz7Rb5czATyA&security=reality&sid=da122c35&sni=haharu7.xixihaha.it.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://137136bb-2da0-4838-bfa4-15b2fb6e0963@109.237.98.122:443?type=tcp&security=none&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
