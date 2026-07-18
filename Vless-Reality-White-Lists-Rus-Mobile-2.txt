@@ -1,9 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://155e8dd4-a559-407a-9ea8-13a5e829f066@87.228.122.108:4100?type=ws&security=none&path=%2Fv1&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://155e8dd4-a559-407a-9ea8-13a5e829f066@87.228.122.108:4100?type=ws&security=none&path=%2Fv1&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://db72616a-517a-4673-b424-8c63181a8a08@78.159.250.151:2027?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&sni=ads.x5.ru&pbk=EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0&sid=6ba7b8109dad11d1&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D%20Beeline
-vless://db72616a-517a-4673-b424-8c63181a8a08@78.159.250.151:2027?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&sni=ads.x5.ru&pbk=EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0&sid=6ba7b8109dad11d1&fp=android#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D%20Beeline
-vless://f9f6d16e-53c1-4ea6-8c53-89483c949668@ru1.s812331.shop:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=ru1.s812331.shop&pbk=t4EwA9MrngL76s-84P3x_KdfXUURIFTBAlu057m7ogs&sid=36c831f8be44a9f5&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@194.55.239.174:443?encryption=none&security=tls&sni=furrycdn.net&insecure=0&allowInsecure=0&type=ws&host=furrycdn.net&path=%2Fapi%2Fv1%2Fvideo-stream&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://b009383a-9f01-4d27-b437-973d9386deb8@yt.prostoshield.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=efz4hwnlouHFI-ilC6r-Xn1bQ7L-GNY3TslVdNkhqBQ&sid=0af472dc07187ee3&sni=yt.prostoshield.ru&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://b009383a-9f01-4d27-b437-973d9386deb8@yt.prostoshield.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=efz4hwnlouHFI-ilC6r-Xn1bQ7L-GNY3TslVdNkhqBQ&sid=0af472dc07187ee3&sni=yt.prostoshield.ru&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://31649657-6c78-4c2c-b25b-5cd574b082b5@ru01.tunnely.space:2096?mode=gun&security=reality&encryption=none&pbk=51TT1F2DugIjuNuGgaeEoW_BWhEKg3mNyNkjNGd_2RM&type=grpc&serviceName=grpc&sni=ru01.tunnely.space&sid=2e40144ddc07e8e1&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
