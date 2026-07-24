@@ -1,9 +1,5 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://df2b6103-3323-4ed4-8417-bfa80bc66848@171.22.138.19:443?encryption=none&fp=firefox&mode=auto&path=/xhttp&pbk=CrpgGxcohQuHi10Ogf4iwm_C7FZxd6WPg6e7lVzen1Y&security=reality&sid=8eb14f87fd57847c&sni=bestrecipes-online.site&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://db904cbc-0292-469a-a356-eb02527af59a@62.152.60.105:9443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=pPzR1XhpFrEIwevI7lPPvw4faRcRQmqiNySYHkSdVBU&security=reality&sid=2a552b0d4d15e0f7&sni=max.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://dee59997-f3f0-4dc5-bb26-ae24ae63ec5a@46.29.163.32:29311?security=&encryption=none&headerType=none&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://df2b6103-3323-4ed4-8417-bfa80bc66848@171.22.138.19:443?encryption=none&mode=auto&path=%2Fxhttp&pbk=CrpgGxcohQuHi10Ogf4iwm_C7FZxd6WPg6e7lVzen1Y&security=reality&sid=8eb14f87fd57847c&sni=bestrecipes-online.site&type=xhttp&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://efa7cb19-2845-4eb7-bcd7-e860a8a4628d@62.152.59.224:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=pPzR1XhpFrEIwevI7lPPvw4faRcRQmqiNySYHkSdVBU&security=reality&sid=2a552b0d4d15e0f7&sni=max.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://df2b6103-3323-4ed4-8417-bfa80bc66848@171.22.138.19:443?encryption=none&mode=auto&path=%2Fxhttp&pbk=CrpgGxcohQuHi10Ogf4iwm_C7FZxd6WPg6e7lVzen1Y&security=reality&sid=8eb14f87fd57847c&sni=bestrecipes-online.site&type=xhttp&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
