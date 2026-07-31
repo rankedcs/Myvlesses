@@ -1,6 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.38:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=family.adguard-dns.com&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&sid=f0131a4772b494d4&alpn=http%2F1.1&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
-vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.38:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=family.adguard-dns.com&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&sid=f0131a4772b494d4&alpn=http%2F1.1&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
-vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.38:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=family.adguard-dns.com&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&sid=f0131a4772b494d4&alpn=http%2F1.1&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://ee6950b1-5a5a-4bb6-ae54-814070840281@77.91.92.203:8443?encryption=none&security=reality&sni=ru.tradingview.com&pbk=H-e-yE-hA1-95RFi79ybIp-Zuovemea03YQHk5o7fRI&sid=23a2dca5aa18c5a0&spx=%2F&type=grpc&authority=&serviceName=Gun&mode=gun&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://ee6950b1-5a5a-4bb6-ae54-814070840281@77.91.92.203:8443?encryption=none&security=reality&sni=ru.tradingview.com&pbk=H-e-yE-hA1-95RFi79ybIp-Zuovemea03YQHk5o7fRI&sid=23a2dca5aa18c5a0&spx=%2F&type=grpc&authority=&serviceName=Gun&mode=gun&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.38:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=family.adguard-dns.com&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&sid=f0131a4772b494d4&alpn=http%2F1.1&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
