@@ -1,9 +1,5 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://d70c6f21-1b25-42f5-8a95-c26731421256@185.91.54.108:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=I5edSdNs1Pr3a90VOI2Nal8-uQR34W_aftcpuXQYqiA&security=reality&sid=4c20234126c0ec7b&sni=cdn12.cloud-cdn.xyz&spx=%2F&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://ed425746-3d10-4b45-a71d-11ff5c3a772f@213.171.31.29:443?encryption=none&fp=firefox&mode=gun&pbk=I2aM-iYWKsWCPtzA_zRbq4AYiaZFDrDNo--xFI51Nlw&security=reality&serviceName=clgoto&sid=7a842f6632c23114&sni=ru2.fastfive.ru&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://ed425746-3d10-4b45-a71d-11ff5c3a772f@213.171.31.29:443?encryption=none&fp=safari&mode=gun&pbk=I2aM-iYWKsWCPtzA_zRbq4AYiaZFDrDNo--xFI51Nlw&security=reality&serviceName=clgoto&sid=7a842f6632c23114&sni=ru2.fastfive.ru&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://155e8dd4-a559-407a-9ea8-13a5e829f066@168.222.140.204:4100?type=ws&encryption=none&host=168.222.140.204&path=%2Fv1&headerType=none&quicSecurity=none&serviceName=&security=&flow=&fp=chrome&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://155e8dd4-a559-407a-9ea8-13a5e829f066@168.222.140.204:4100?encryption=none&path=/v1&security=none&type=ws#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://ed425746-3d10-4b45-a71d-11ff5c3a772f@213.171.31.29:443?encryption=none&fp=chrome&pbk=I2aM-iYWKsWCPtzA_zRbq4AYiaZFDrDNo--xFI51Nlw&security=reality&serviceName=clgoto&sid=7a842f6632c23114&sni=ru2.fastfive.ru&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://ee6950b1-5a5a-4bb6-ae54-814070840281@77.91.92.203:8443?encryption=none&mode=gun&pbk=H-e-yE-hA1-95RFi79ybIp-Zuovemea03YQHk5o7fRI&security=reality&serviceName=Gun&sid=23a2dca5aa18c5a0&sni=ru.tradingview.com&spx=%2F&type=grpc&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://ee6950b1-5a5a-4bb6-ae54-814070840281@77.91.92.203:8443?encryption=none&mode=gun&pbk=H-e-yE-hA1-95RFi79ybIp-Zuovemea03YQHk5o7fRI&security=reality&serviceName=Gun&sid=23a2dca5aa18c5a0&sni=ru.tradingview.com&spx=%2F&type=grpc&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
