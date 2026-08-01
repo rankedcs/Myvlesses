@@ -1,5 +1,4 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://ee6950b1-5a5a-4bb6-ae54-814070840281@77.91.92.203:8443?encryption=none&mode=gun&pbk=H-e-yE-hA1-95RFi79ybIp-Zuovemea03YQHk5o7fRI&security=reality&serviceName=Gun&sid=23a2dca5aa18c5a0&sni=ru.tradingview.com&spx=%2F&type=grpc&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
-vless://ee6950b1-5a5a-4bb6-ae54-814070840281@77.91.92.203:8443?encryption=none&mode=gun&pbk=H-e-yE-hA1-95RFi79ybIp-Zuovemea03YQHk5o7fRI&security=reality&serviceName=Gun&sid=23a2dca5aa18c5a0&sni=ru.tradingview.com&spx=%2F&type=grpc&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://0f240308-5771-4636-9315-f3259ff87f98@217.198.6.90:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=sun6-21.userapi.com&fp=firefox&pbk=KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
