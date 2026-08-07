@@ -1,3 +1,9 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://16ab4d4a-fd81-4535-9b7b-346677226ce8@132.243.214.215:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ya.ru&pbk=Axohq6jd8keuu4_tut3zq9nkDSES6F21mEA_SFba3AM&sid=7cec667da1e0&type=tcp&headerType=none&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://6d662736-24ea-4f8e-9e73-acbc14d09cb1@77.222.38.3:2200?encryption=none&type=ws&security=none&path=%2Fv1&host=rzd.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://16ab4d4a-fd81-4535-9b7b-346677226ce8@132.243.214.215:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ya.ru&pbk=Axohq6jd8keuu4_tut3zq9nkDSES6F21mEA_SFba3AM&sid=7cec667da1e0&type=tcp&headerType=none&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://16ab4d4a-fd81-4535-9b7b-346677226ce8@132.243.214.215:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ya.ru&pbk=Axohq6jd8keuu4_tut3zq9nkDSES6F21mEA_SFba3AM&sid=7cec667da1e0&type=tcp&headerType=none&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://16ab4d4a-fd81-4535-9b7b-346677226ce8@132.243.214.215:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ya.ru&pbk=Axohq6jd8keuu4_tut3zq9nkDSES6F21mEA_SFba3AM&sid=7cec667da1e0&type=tcp&headerType=none&fp=android#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://16ab4d4a-fd81-4535-9b7b-346677226ce8@132.243.214.215:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ya.ru&pbk=Axohq6jd8keuu4_tut3zq9nkDSES6F21mEA_SFba3AM&sid=7cec667da1e0&type=tcp&headerType=none&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
