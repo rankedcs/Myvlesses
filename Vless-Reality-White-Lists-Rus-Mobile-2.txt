@@ -1,6 +1,3 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://533098d5-957a-4914-addd-528eea5f2b99@45.9.15.93:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=bestrecipes-online.site&pbk=wO1R7iYLFX09H4HXMZdSA3fUbHsP_Z9mwqO_egrs1nU&sid=e1e175913f44af71&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
-vless://533098d5-957a-4914-addd-528eea5f2b99@45.9.15.93:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=bestrecipes-online.site&pbk=wO1R7iYLFX09H4HXMZdSA3fUbHsP_Z9mwqO_egrs1nU&sid=e1e175913f44af71&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://533098d5-957a-4914-addd-528eea5f2b99@45.9.15.93:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=bestrecipes-online.site&pbk=wO1R7iYLFX09H4HXMZdSA3fUbHsP_Z9mwqO_egrs1nU&sid=e1e175913f44af71&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
