@@ -1,13 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://82b4ed1d-c6fe-07d0-a882-e128f6ff2c3a@139.100.197.28:52006?alpn=h2%2Chttp%2F1.1&encryption=none&flow=xtls-rprx-vision&fp=qq&security=tls&sni=search.setlisting.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://6fb765d1-ebb9-07d0-95f2-aded924cddb1@139.100.197.28:52006?alpn=h2%2Chttp%2F1.1&encryption=none&flow=xtls-rprx-vision&fp=qq&security=tls&sni=search.setlisting.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://9a0b34ac-769a-07d0-9432-b965f6b30dbd@139.100.197.28:52006?type=raw&security=tls&flow=xtls-rprx-vision&fp=qq&sni=search.setlisting.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://6d584a7f-c342-07d0-986e-d7f9b47b21d6@139.100.197.28:52006?type=raw&security=tls&flow=xtls-rprx-vision&fp=safari&sni=search.setlisting.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://06e20338-4cc7-07d0-80c7-8dc095d3a8c5@139.100.197.28:52006?type=tcp&security=tls&sni=search.setlisting.ru&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://9a0b34ac-769a-07d0-9432-b965f6b30dbd@139.100.197.28:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=search.setlisting.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://9f95449f-4a17-07d0-b4f0-32cd94a6eb64@139.100.197.28:52006?type=raw&security=tls&encryption=none&sni=search.setlisting.ru&fp=qq&alpn=h2%2Chttp%2F1.1&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://06e20338-4cc7-07d0-80c7-8dc095d3a8c5@139.100.197.28:52006?type=raw&security=tls&flow=xtls-rprx-vision&fp=qq&sni=search.setlisting.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://0a36b23e-605b-07d0-86f9-e814c148ceed@139.100.197.28:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=search.setlisting.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://6d584a7f-c342-07d0-986e-d7f9b47b21d6@139.100.197.28:52006?type=raw&security=tls&encryption=none&sni=search.setlisting.ru&fp=qq&alpn=h2%2Chttp%2F1.1&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://6d584a7f-c342-07d0-986e-d7f9b47b21d6@139.100.197.28:52006?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=search.setlisting.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://9a0b34ac-769a-07d0-9432-b965f6b30dbd@139.100.197.28:52006?type=tcp&security=tls&sni=search.setlisting.ru&fp=safari&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://b44943cb-693f-07d0-9390-7fa2b78576fa@139.100.197.28:52006?type=raw&security=tls&flow=xtls-rprx-vision&fp=qq&sni=search.setlisting.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://c8996c48-0e45-07d0-8f33-338ef260a01d@139.100.197.28:52006?type=tcp&security=tls&sni=search.setlisting.ru&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://07ac4642-9570-07d0-af45-384f4ee2e56e@139.100.197.28:52006?alpn=h2%2Chttp%2F1.1&encryption=none&flow=xtls-rprx-vision&fp=qq&security=tls&sni=search.setlisting.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://0a36b23e-605b-07d0-86f9-e814c148ceed@139.100.197.28:52006?type=raw&security=tls&flow=xtls-rprx-vision&fp=qq&sni=search.setlisting.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://4bb3b69d-221a-07d0-a449-0dd78a2870d3@139.100.197.28:52006?security=tls&flow=xtls-rprx-vision&sni=search.setlisting.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://9f95449f-4a17-07d0-b4f0-32cd94a6eb64@139.100.197.28:52006?type=raw&security=tls&encryption=none&sni=search.setlisting.ru&fp=qq&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
