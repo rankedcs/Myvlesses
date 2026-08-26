@@ -1,6 +1,13 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://db7de26b-96d8-452c-8b9d-4a6bf55a7da7@87.249.54.103:4100?type=ws&security=none&path=/v1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://00a9b272-0296-47da-b365-bf585a7009b2@81.163.23.111:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=shop.core-multiplayer.com&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
-vless://00a9b272-0296-47da-b365-bf585a7009b2@81.163.23.111:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=shop.core-multiplayer.com&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://00a9b272-0296-47da-b365-bf585a7009b2@81.163.23.111:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=shop.core-multiplayer.com&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://00a9b272-0296-47da-b365-bf585a7009b2@81.163.23.111:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=shop.core-multiplayer.com&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://00a9b272-0296-47da-b365-bf585a7009b2@81.163.23.111:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=shop.core-multiplayer.com&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://c47b421f-65f1-4190-b7ba-bd2045086fe4@51.250.102.172:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=r2z0sgaDnhJivtK4ptR1KytLtnkgF_qKEeGUEzalo0M&sid=3f3e9c3b3a3d3a33&sni=ads.x5.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://dbb5075f-2ff4-4aad-a952-bcc82e4a6355@109.69.17.228:443?flow=xtls-rprx-vision&type=tcp&security=reality&sni=bzzru.hat.apruxdomain.space&pbk=5f7Qx1uealNy3mUg8kV9R_npeYTogZwOsA-9bZtEfD0&sid=b2ba734eff38baa9&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://c47b421f-65f1-4190-b7ba-bd2045086fe4@51.250.102.172:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=r2z0sgaDnhJivtK4ptR1KytLtnkgF_qKEeGUEzalo0M&sid=3f3e9c3b3a3d3a33&sni=ads.x5.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+vless://33c150b7-c0ca-4133-9a52-6f1207da9b8b@5.42.122.16:443?type=xhttp&security=reality&fp=firefox&pbk=vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8&sid=15affa0af66dfc79&sni=deepl.com&mode=auto&extra=null#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://33c150b7-c0ca-4133-9a52-6f1207da9b8b@5.42.122.16:443?encryption=none&extra=null&fp=chrome&mode=auto&path=/&pbk=vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8&security=reality&sid=15affa0af66dfc79&sni=deepl.com&type=xhttp#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://33c150b7-c0ca-4133-9a52-6f1207da9b8b@xhttpru.enotvpn.net:443?type=xhttp&security=reality&fp=firefox&pbk=vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8&sid=15affa0af66dfc79&sni=deepl.com&mode=auto&__rand=711971e6#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://440f3c08-7599-406e-8ba3-7dbc6324c5ed@ru.riotvpn.eu:6443?type=xhttp&security=reality&fp=qq&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=844352756c1fabba&sni=api.vkimages.io&mode=auto#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
