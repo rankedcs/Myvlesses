@@ -1,3 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://099f0859-cb81-4a57-b6d8-2c8e18030627@5.42.106.111:2200?encryption=none&security=none&type=ws&host=rzd.ru&path=%2Fv1&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://099f0859-cb81-4a57-b6d8-2c8e18030627@5.42.106.111:2200?encryption=none&security=none&type=ws&host=rzd.ru&path=%2Fv1&fp=android#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://099f0859-cb81-4a57-b6d8-2c8e18030627@5.42.106.111:2200?encryption=none&security=none&type=ws&host=rzd.ru&path=%2Fv1&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
