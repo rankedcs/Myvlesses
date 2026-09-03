@@ -1,6 +1,3 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
-vless://adff89a7-bde7-4614-962a-4068a65a655e@79.174.92.143:443?type=grpc&security=tls&encryption=none&sni=cdn16.cloud-cdn.xyz&serviceName=vlgrpc&alpn=h2&mode=gun&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
-vless://adff89a7-bde7-4614-962a-4068a65a655e@79.174.92.143:443?type=grpc&security=tls&encryption=none&sni=cdn16.cloud-cdn.xyz&serviceName=vlgrpc&alpn=h2&mode=gun&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
-vless://adff89a7-bde7-4614-962a-4068a65a655e@79.174.92.143:443?type=grpc&security=tls&encryption=none&sni=cdn16.cloud-cdn.xyz&serviceName=vlgrpc&alpn=h2&mode=gun&fp=android#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
