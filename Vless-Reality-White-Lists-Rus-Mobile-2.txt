@@ -1,3 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://22723345-4e67-4ac9-a4e6-4435b9a533b7@92.255.108.73:443?encryption=none&flow=xtls-rprx-vision&pbk=JcGpLovsiIVJAu-678sQnNh59rrtB57dRm91J84aThs&security=reality&sid=3c8a&sni=www.samsung.com&type=tcp&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://22723345-4e67-4ac9-a4e6-4435b9a533b7@92.255.108.73:443?encryption=none&flow=xtls-rprx-vision&pbk=JcGpLovsiIVJAu-678sQnNh59rrtB57dRm91J84aThs&security=reality&sid=3c8a&sni=www.samsung.com&type=tcp&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://22723345-4e67-4ac9-a4e6-4435b9a533b7@92.255.108.73:443?encryption=none&flow=xtls-rprx-vision&pbk=JcGpLovsiIVJAu-678sQnNh59rrtB57dRm91J84aThs&security=reality&sid=3c8a&sni=www.samsung.com&type=tcp&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
