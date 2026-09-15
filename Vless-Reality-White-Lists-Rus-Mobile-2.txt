@@ -1,3 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://6042aecb-c19b-4ebc-a3c7-0bad5fbfe01a@46.149.68.140:443?encryption=none&flow=xtls-rprx-vision&pbk=hJAFs0uE6ALPK_hCctGQo1DbV6OYt2Yc40Mz_Y8VNVc&security=reality&sid=92ba94c503e65638&sni=video.flyflyfly.uk&type=tcp&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://6042aecb-c19b-4ebc-a3c7-0bad5fbfe01a@46.149.68.140:443?encryption=none&flow=xtls-rprx-vision&pbk=hJAFs0uE6ALPK_hCctGQo1DbV6OYt2Yc40Mz_Y8VNVc&security=reality&sid=92ba94c503e65638&sni=video.flyflyfly.uk&type=tcp&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://6042aecb-c19b-4ebc-a3c7-0bad5fbfe01a@46.149.68.140:443?encryption=none&flow=xtls-rprx-vision&pbk=hJAFs0uE6ALPK_hCctGQo1DbV6OYt2Yc40Mz_Y8VNVc&security=reality&sid=92ba94c503e65638&sni=video.flyflyfly.uk&type=tcp&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
