@@ -1,3 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://1cbb3702-b434-45cf-8520-3e32d860fd83@193.17.92.57:2053?security=reality&encryption=none&pbk=G7VlRXdpKKaZ_33pA0Zsii70uiYkeoBiVYgAD_tL_28&type=grpc&serviceName=grpc-fd03cd54&sni=vk.com&sid=76f9d74c385ae618&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
+vless://1cbb3702-b434-45cf-8520-3e32d860fd83@193.17.92.57:2053?security=reality&encryption=none&pbk=G7VlRXdpKKaZ_33pA0Zsii70uiYkeoBiVYgAD_tL_28&type=grpc&serviceName=grpc-fd03cd54&sni=vk.com&sid=76f9d74c385ae618&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://1cbb3702-b434-45cf-8520-3e32d860fd83@193.17.92.57:2053?security=reality&encryption=none&pbk=G7VlRXdpKKaZ_33pA0Zsii70uiYkeoBiVYgAD_tL_28&type=grpc&serviceName=grpc-fd03cd54&sni=vk.com&sid=76f9d74c385ae618&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
