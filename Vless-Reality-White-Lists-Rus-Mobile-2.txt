@@ -1,3 +1,4 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://eabb8fc5-c05e-0001-bcf7-0db366a8d593@5.129.194.228:8443?type=grpc&security=reality&pbk=mZjATY7nGyp_ikhe2PakXak5JWk2ORn9vl_lO2WpICs&sid=ad0cb77acd87a7ca&sni=vetmurvet.ru&serviceName=grpc-service&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D
