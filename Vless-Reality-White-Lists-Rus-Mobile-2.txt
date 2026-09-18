@@ -1,3 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://f6bc1dde-140f-4314-addd-15d2782247b9@201.24.63.129:8443?encryption=none&type=tcp&headerType=none&security=reality&sni=play-apps-features.googleusercontent.com&pbk=gNJZix6GHGuB246_yD6n0EQQY-6Vb1zXg3ipjnubawE&sid=4aeb24f2a87c8f8f&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://f6bc1dde-140f-4314-addd-15d2782247b9@201.24.63.129:8443?encryption=none&type=tcp&headerType=none&security=reality&sni=play-apps-features.googleusercontent.com&pbk=gNJZix6GHGuB246_yD6n0EQQY-6Vb1zXg3ipjnubawE&sid=4aeb24f2a87c8f8f&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://f6bc1dde-140f-4314-addd-15d2782247b9@201.24.63.129:8443?encryption=none&type=tcp&headerType=none&security=reality&sni=play-apps-features.googleusercontent.com&pbk=gNJZix6GHGuB246_yD6n0EQQY-6Vb1zXg3ipjnubawE&sid=4aeb24f2a87c8f8f&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
