@@ -1,3 +1,6 @@
 # profile-title: 🇷🇺 КАМЕНКА🇷🇺
 # profile-update-interval: 1
 
+vless://6418a3f1-40bf-4fc5-bbce-48df24e68283@185.254.189.85:8443?encryption=none&flow=xtls-rprx-vision&pbk=WZgAbXvSq_jsxEAK-h7JnqwHQxB1TNEslpojgPsBCV8&security=reality&sid=143619e8486b8d0f&sni=assets.jagavps.ru&type=tcp&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://6418a3f1-40bf-4fc5-bbce-48df24e68283@185.254.189.85:8443?encryption=none&flow=xtls-rprx-vision&pbk=WZgAbXvSq_jsxEAK-h7JnqwHQxB1TNEslpojgPsBCV8&security=reality&sid=143619e8486b8d0f&sni=assets.jagavps.ru&type=tcp&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
+vless://6418a3f1-40bf-4fc5-bbce-48df24e68283@185.254.189.85:8443?encryption=none&flow=xtls-rprx-vision&pbk=WZgAbXvSq_jsxEAK-h7JnqwHQxB1TNEslpojgPsBCV8&security=reality&sid=143619e8486b8d0f&sni=assets.jagavps.ru&type=tcp&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D
